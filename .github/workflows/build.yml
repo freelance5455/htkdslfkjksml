@@ -68,6 +68,22 @@ jobs:
             echo "No project key pushed; using the default signing key."
           fi
 
+      # An app built from a picked HTML file / website ZIP carries its content in the
+      # branch as web_content.zip. Unpack it into the app's assets so the runtime can
+      # serve it locally (see LocalContent.kt). A website app pushes no such file and
+      # this step simply does nothing.
+      - name: Unpack bundled web content
+        if: steps.target.outputs.value != 'key'
+        run: |
+          if [ -f web_content.zip ]; then
+            rm -rf app/src/main/assets/web
+            mkdir -p app/src/main/assets/web
+            unzip -q -o web_content.zip -d app/src/main/assets/web
+            echo "Unpacked $(find app/src/main/assets/web -type f | wc -l) file(s) into assets/web."
+          else
+            echo "No web_content.zip in the branch; building a website app."
+          fi
+
       - name: Build release APK
         if: steps.target.outputs.value == 'apk'
         run: ./gradlew :app:assembleRelease --stacktrace

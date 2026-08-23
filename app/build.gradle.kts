@@ -82,4 +82,6 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.swiperefreshlayout)
+    // Serves a bundled HTML/ZIP site over an https origin — see LocalContent.
+    implementation(libs.androidx.webkit)
 }

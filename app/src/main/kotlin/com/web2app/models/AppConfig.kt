@@ -11,6 +11,10 @@ data class AppConfig(
     val versionName: String = "1.0",
     val versionCode: Int = 1,
     val websiteURL: String = "https://appofweb.com",
+    /** Built from a bundled HTML file / website ZIP in `assets/web/`, not an address. */
+    val localContent: Boolean = false,
+    /** Start page inside the bundle, relative to its root. */
+    val localEntry: String = "index.html",
     val themeColor: String = "#FFFFFF",
     val splash: Splash = Splash(),
     val showTabbar: Boolean = false,
@@ -207,6 +211,8 @@ fun parseAppConfig(json: JSONObject): AppConfig {
         versionName = json.optString("versionName", "1.0"),
         versionCode = json.optInt("versionCode", 1),
         websiteURL = json.optString("websiteUrl", "https://appofweb.com"),
+        localContent = json.optBoolean("localContent", false),
+        localEntry = json.optString("localEntry", "index.html").ifBlank { "index.html" },
         themeColor = json.optString("themeColor", "#FFFFFF"),
         splash = splash,
         showTabbar = json.optBoolean("showTabbar", false),
@@ -247,6 +253,8 @@ fun appConfigToJson(config: AppConfig): JSONObject {
     obj.put("versionName", config.versionName)
     obj.put("versionCode", config.versionCode)
     obj.put("websiteUrl", config.websiteURL)
+    obj.put("localContent", config.localContent)
+    obj.put("localEntry", config.localEntry)
     obj.put("themeColor", config.themeColor)
 
     val splashObj = JSONObject()

@@ -204,6 +204,11 @@ class MainActivity : AppCompatActivity() {
 
     // ─── WebView ───────────────────────────────────────────────────────────────
 
+    /** Non-null only when this app ships its own content (see [LocalContent]). */
+    private val assetLoader by lazy {
+        if (appConfig.localContent) LocalContent.loaderFor(this) else null
+    }
+
     @Suppress("SetJavaScriptEnabled")
     private fun setupWebView() {
         webView.settings.apply {
@@ -240,6 +245,12 @@ class MainActivity : AppCompatActivity() {
         }
 
         webView.webViewClient = object : WebViewClient() {
+            // A bundled site is served from the app's own assets; a website app has no
+            // loader and every request goes to the network as before.
+            override fun shouldInterceptRequest(
+                view: WebView, request: WebResourceRequest
+            ): WebResourceResponse? = LocalContent.intercept(assetLoader, request)
+
             override fun shouldOverrideUrlLoading(
                 view: WebView, request: WebResourceRequest
             ): Boolean {
@@ -295,7 +306,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun loadCurrentUrl() {
-        webView.loadUrl(appConfig.websiteURL)
+        webView.loadUrl(
+            if (appConfig.localContent) LocalContent.urlFor(appConfig.localEntry)
+            else appConfig.websiteURL
+        )
     }
 
     // ─── Network Connectivity (mirrors connectivityState / observeConnectivityAsFlow) ──
