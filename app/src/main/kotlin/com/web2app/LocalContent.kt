@@ -2,10 +2,12 @@ package com.web2app
 
 import android.content.Context
 import android.net.Uri
+import android.webkit.MimeTypeMap
 import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
-import android.webkit.WebView
 import androidx.webkit.WebViewAssetLoader
+import java.io.ByteArrayInputStream
+import java.io.IOException
 
 /**
  * Serves an app built from a picked HTML file or website ZIP.
@@ -23,10 +25,70 @@ object LocalContent {
     const val ORIGIN = "https://appassets.androidplatform.net"
     const val PATH = "/web/"
 
+    /** Where the content lives inside the APK's assets. */
+    private const val ASSET_ROOT = "web"
+
     fun loaderFor(context: Context): WebViewAssetLoader =
         WebViewAssetLoader.Builder()
-            .addPathHandler(PATH, WebViewAssetLoader.AssetsPathHandler(context))
+            .addPathHandler(PATH, AssetsSubdirectoryHandler(context))
             .build()
+
+    /**
+     * Serves the bundle out of `assets/web/`.
+     *
+     * The stock [WebViewAssetLoader.AssetsPathHandler] cannot do this: it resolves the
+     * path left after the prefix against the assets ROOT, so `/web/site/index.html`
+     * would be looked up as `assets/site/index.html` and every request would come back
+     * empty (ERR_INVALID_RESPONSE). This one keeps the bundle in its own subdirectory,
+     * out of the way of the app's own assets.
+     */
+    private class AssetsSubdirectoryHandler(
+        context: Context,
+    ) : WebViewAssetLoader.PathHandler {
+
+        private val assets = context.applicationContext.assets
+
+        override fun handle(path: String): WebResourceResponse? {
+            // "../" in a request must never climb out of the bundle.
+            val clean = path.trimStart('/').replace("//", "/")
+            if (clean.split('/').any { it == ".." }) return notFound()
+            val asset = if (clean.isEmpty()) "$ASSET_ROOT/index.html" else "$ASSET_ROOT/$clean"
+            return try {
+                WebResourceResponse(mimeOf(asset), null, assets.open(asset))
+            } catch (e: IOException) {
+                // A real 404 rather than a null-bodied response, so a missing file shows
+                // as a missing file instead of a broken page.
+                notFound()
+            }
+        }
+
+        private fun notFound() = WebResourceResponse(
+            "text/plain", "utf-8", 404, "Not Found", emptyMap(),
+            ByteArrayInputStream(ByteArray(0))
+        )
+
+        /**
+         * The WebView refuses to run a script or apply a stylesheet served under the
+         * wrong type, so this has to be right — and MimeTypeMap doesn't know some of
+         * the extensions a modern site uses.
+         */
+        private fun mimeOf(path: String): String {
+            val ext = path.substringAfterLast('.', "").lowercase()
+            return when (ext) {
+                "html", "htm" -> "text/html"
+                "js", "mjs" -> "application/javascript"
+                "css" -> "text/css"
+                "json", "map" -> "application/json"
+                "svg" -> "image/svg+xml"
+                "wasm" -> "application/wasm"
+                "woff" -> "font/woff"
+                "woff2" -> "font/woff2"
+                "ttf" -> "font/ttf"
+                else -> MimeTypeMap.getSingleton().getMimeTypeFromExtension(ext)
+                    ?: "application/octet-stream"
+            }
+        }
+    }
 
     /**
      * The URL for a page inside the bundle. [entry] is relative to the bundle root;
@@ -48,7 +110,4 @@ object LocalContent {
 
     /** True for URLs this serves, so in-app navigation can be told from outside links. */
     fun isLocal(url: String): Boolean = url.startsWith(ORIGIN)
-
-    @Suppress("UNUSED_PARAMETER")
-    fun noop(view: WebView) = Unit
 }
