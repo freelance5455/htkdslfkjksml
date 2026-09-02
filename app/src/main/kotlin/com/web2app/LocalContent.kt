@@ -95,9 +95,29 @@ object LocalContent {
      * an absolute http(s) address is left alone, so a tab may still point at a real
      * website even in a locally-sourced app.
      */
+    /**
+     * The address the builder writes into a bundled app's config (and into its tab URLs)
+     * while there is no real website. It is not a host that resolves — anything pointing
+     * at it means "the page inside this bundle".
+     */
+    private const val PLACEHOLDER_ORIGIN = "https://local.file"
+
+    /**
+     * Resolves [entry] to something loadable.
+     *
+     * A bundled app's tabs are filled with the placeholder address, so an absolute URL
+     * cannot simply be handed to the network: one pointing at [PLACEHOLDER_ORIGIN] is a
+     * path inside the bundle and is rewritten to the asset origin. Any other absolute
+     * URL is a genuine outside link and is left alone.
+     */
     fun urlFor(entry: String): String {
-        val clean = entry.trim().trimStart('/')
-        if (clean.startsWith("http://", true) || clean.startsWith("https://", true)) return clean
+        var clean = entry.trim()
+        if (clean.startsWith(PLACEHOLDER_ORIGIN, true)) {
+            clean = clean.removeRange(0, PLACEHOLDER_ORIGIN.length)
+        } else if (clean.startsWith("http://", true) || clean.startsWith("https://", true)) {
+            return clean
+        }
+        clean = clean.trimStart('/')
         val encoded = clean.split('/').joinToString("/") { Uri.encode(it) }
         return "$ORIGIN$PATH${encoded.ifEmpty { "index.html" }}"
     }

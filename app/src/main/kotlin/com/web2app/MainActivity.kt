@@ -2,15 +2,10 @@ package com.web2app
 
 import android.animation.AnimatorSet
 import android.animation.ObjectAnimator
-import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Color
 import android.graphics.Outline
-import android.net.ConnectivityManager
-import android.net.Network
-import android.net.NetworkCapabilities
-import android.net.NetworkRequest
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
@@ -33,7 +28,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var webView: WebView
     private lateinit var swipeRefresh: SwipeRefreshLayout
     private lateinit var progressBar: View
-    private lateinit var noInternetView: View
 
     /** Holder for the configured page loader; null/false means use the default spinner. */
     private var pageLoaderHolder: View? = null
@@ -43,8 +37,6 @@ class MainActivity : AppCompatActivity() {
     private var watermarkBadge: LinearLayout? = null
 
     private lateinit var permissionsHandler: PermissionsHandler
-    private var connectivityManager: ConnectivityManager? = null
-    private var networkCallback: ConnectivityManager.NetworkCallback? = null
 
     companion object {
         const val EXTRA_APP_ID = "extra_app_id"
@@ -80,7 +72,6 @@ class MainActivity : AppCompatActivity() {
         webView = findViewById(R.id.webView)
         swipeRefresh = findViewById(R.id.swipeRefresh)
         progressBar = findViewById(R.id.progressBar)
-        noInternetView = findViewById(R.id.noInternetView)
 
         // Show the preview close button (faint eye behind a clear X) only when
         // previewing an app from the builder; tapping it dismisses the preview.
@@ -91,7 +82,6 @@ class MainActivity : AppCompatActivity() {
 
         setupPageLoader()
         setupWebView()
-        setupConnectivity()
         requestConfiguredPermissions()
         setupWatermark()
 
@@ -254,7 +244,13 @@ class MainActivity : AppCompatActivity() {
             override fun shouldOverrideUrlLoading(
                 view: WebView, request: WebResourceRequest
             ): Boolean {
-                view.loadUrl(request.url.toString())
+                // A bundled page may link to the placeholder address the builder wrote
+                // (or to a plain path); both mean "stay inside the bundle". Resolving
+                // here keeps in-page navigation working, not just the initial load.
+                val target = request.url.toString()
+                view.loadUrl(
+                    if (appConfig.localContent) LocalContent.urlFor(target) else target
+                )
                 return false
             }
 
@@ -310,48 +306,6 @@ class MainActivity : AppCompatActivity() {
             if (appConfig.localContent) LocalContent.urlFor(appConfig.localEntry)
             else appConfig.websiteURL
         )
-    }
-
-    // ─── Network Connectivity (mirrors connectivityState / observeConnectivityAsFlow) ──
-
-    private fun setupConnectivity() {
-        connectivityManager =
-            getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-
-        // Show correct initial state
-        if (isNetworkConnected()) showWebContent() else showNoInternet()
-
-        val request = NetworkRequest.Builder()
-            .addCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
-            .build()
-
-        networkCallback = object : ConnectivityManager.NetworkCallback() {
-            override fun onAvailable(network: Network) {
-                runOnUiThread { showWebContent() }
-            }
-
-            override fun onLost(network: Network) {
-                runOnUiThread { showNoInternet() }
-            }
-        }
-
-        connectivityManager?.registerNetworkCallback(request, networkCallback!!)
-    }
-
-    private fun isNetworkConnected(): Boolean {
-        val cm = connectivityManager ?: return false
-        return cm.getNetworkCapabilities(cm.activeNetwork)
-            ?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
-    }
-
-    private fun showWebContent() {
-        swipeRefresh.visibility = View.VISIBLE
-        noInternetView.visibility = View.GONE
-    }
-
-    private fun showNoInternet() {
-        swipeRefresh.visibility = View.GONE
-        noInternetView.visibility = View.VISIBLE
     }
 
     // ─── Permissions (mirrors PermissionsWrapper composable in reference) ──────
@@ -413,10 +367,5 @@ class MainActivity : AppCompatActivity() {
     override fun onBackPressed() {
         if (webView.canGoBack()) webView.goBack()
         else super.onBackPressed()
-    }
-
-    override fun onDestroy() {
-        super.onDestroy()
-        networkCallback?.let { connectivityManager?.unregisterNetworkCallback(it) }
     }
 }
