@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "90b922e7-3928-4ef2-9bc3-e48e1d42042d",
+  "appName": "FT",
+  "appIcon": "iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAARoSURBVHic7ds7bxxVGMfhs8EKrF3QpQUaJCiIP0j6UPL1UMp8CNoEiYtEE7dUUNiOI8hSIEdRYnluZ87Mzv95qigX71nl/c076/Xu9vv9oUCoB0sfAJYkAKIJgGgCIJoAiCYAogmAaCetH/D86qz1Q3JkXpxeNnus3dxvhBl4ppoziNkCMPjUNkcI1QMw+MytZghVXwQbflqoOWdVNoDBZylTt8HkDWD4WdLU+ZsUgOFnDabM4ehboLEP2vJ7vBynlrM1KoAxBzT4DNVizmZ/J9jgM9bt7Mx5qz14A/Q9jMGntjlmb9CLYMPPkvrO1ZCNUf2nQQ0/c6o9X70D6FOV4aeFPnPWdwv4PADRegXg6s/a1NoCNgDRqgTg6s8SasydDUC0zgC67qNc/VlS1/x1za8NQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRTpY+QAu73W7pI7xzOBze/XpN5xri/edw7Da/AdY6ZGs9V5qIDfDwi1355tf9ome4+OGm/PXs349+/8sfPy2fP/lkgRMN9+r7m/L384+fwzHb/AaA+wiAaAIgmgCIJgCiCYBoAiCaAIgW8UbYUP/8eSi/fHXd5LFePb0Z/W/33z0oX//0We+/f/PH2/L7+evRj7dFNsBCtvTzNMfMBugw56BO+dpTf5ZIgP+zAYgmAKIJgGgCIJoXwR1qfXDFi851sgEa8QmwdbIB7nDyaFceX55W+3q/fXtd3lzYAGtkAxBNAEQTANEEQDQBEE0ARBMA0QRANG+E3aHlJ8JYlg3QiJ8FWicboIPB3TYbgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaBGfCHtzcSgvz66WPkZ11z+/3eTzamnzG2DKRxrX/HHIrT6v1iI2wFb/w7f6vFra/AaA+wiAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCI1hnAi9PLe//8/Oqs2mFgqK7565pfG4BoVQKwBVhCjbmzAYjWK4Cu+6hSbAHa6jNvfebWBiBa7wBsAdai1tW/lBk2gAiYU+35GhRA36pEwBz6zlXfOS2llN1+vz/MdZChh4G7zDlvJ0MPM9Tt4YXAUC3uJEZtgFLGH04IdGk5W6MDKMW9Pusx9sI66btAruaswZQ5nPxtUBGwpKnzN+kW6ENuiWil1oW36hthtgEt1JyzqhvgfbYBtc1xgZ0tgFtCYKo57yxmD+BDgqBLy1vp5gHAmvg8ANEEQDQBEE0ARBMA0QRAtP8Aw+8AVlO2n3QAAAAASUVORK5CYII=",
+  "package": "com.ft.app",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#72FF2F",
+  "pullRefresh": true,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1790091811908
 }
