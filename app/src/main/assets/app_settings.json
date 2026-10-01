@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "a873ca52-0a5e-4eaf-816c-c2ea62c06c79",
+  "appName": "IPTV",
+  "appIcon": "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+uH7mVjlXtP2zTLSe1/c/+TjDeP2GSTQ8fLEiRe/+c0TM57nzczM/OCP/vDHf3f54fYXAIhoZWXl5s2bbT8OJTi//huvj4+P12q1D3+2DBKgvTBmb28HgKpeu3btzKtnVXVpaenWrVt9FoCPjY396qmTAD7/4v729nauIepo13skvPz9e3fee+89UgHACqHm33J5/M033zx5as7zvO99/w/+/seXNYxE5L//87+SWQkB4HOL8+Pj5Wp1/z/ee9coztp2NQwAsrZ29Tu/913P8xYWFt59991e90bkLC5dcNhTja6vrQNCREwk+Vj9aNeVEcUPgXHuDoibejX/BkHwzjvv3Lt3D8CJEydOzZ02u1elsooX35gCpERPtplhGH688XMimp6efvnll7vau4mjFhcXzcfl5WWTf36uZqT9pmQxzGrK1BY0qqoaRVFjZfUDAAK88PUT5vwO6RNBaSruJiKQKjr2t1lbW1NVBS+9dkGZhLtUZKlUOn36NAF3bt3e33tsrqJf6fV8yc5OyzDB6FivndoX4+7du+bg+PHm9jjJYAmdcietu2uH9vr1677vA1hYWOjV0V1cOu84DoD19fUeO7MME5vrKFNGx4mPzAxlBjynufw6WTEqCeGUU6VQSbbpDLBq9NFHHwGYnp6enZ1NJiciZQdg42REwpWVlVZGlN+Svi/R+tUEfPyFb5ij3d3d7DrK9CYoIn1+ZRUiunZtFSRQvnDh28jsClQqlebm5gBsbW1VKpXDlmkArOkumV28ki3l66+/bj5sbm6iow/Zad2aXnLfkWEr6gdw85PN/cdPCJg/t9DZL2VVnZ+fd10XwPr6tWRElB+j1719RSUIcYRmVwtABPI874033piZmSGi7e3t/9n6tNegjckq2ymLadcHqYjErual2W8lUxHR+fPnAYRhwsnkPP4+4v042qIfPfb86Vde4VZjq4TJI0dPnj515syZyclJKIIg+Ld/+VdjsELxHn3N7utAorAQgJWVlYsXfxPA0tLSnTu3RJQVgLhu6ezZswA2NzcbjQZldvnLAwv7oBjm5ubm5uY4GTmo2cokAvD4ye5P/uEfb326xS2LTg3iCw282+Bnn322s7v7/NSxhcXFK1f+nVo5Ly4suK6rwNWrV1kxgs30MHLdE53J5tgujLEDUJHd3d1fPtz++OON5Z/+LAoayTPTw4Tt0WNJh33xYFsCVSXmtfWrly5dmpqaeuml2bu375iEi4uLCm406tevX+/IxiQcSrkzjN7emxqtrq7+0z//JO6XJFxHc+QgRcreB5XDJPlw+YNLly4x8NrShbu376iq55XPnJ0HsLGxIWHk5O9hDPbmcZCQghWswioO1Byw9tqAo3WrCc1bD02nvfeMu2V7+/79+/cBnDt3DgA57tn5V0ulEoBrq1dTkYzmZuz4Esyf6bKfoLbAAYMK7VmK5Ltvk+H6+jqA6enpmZkZETHdpWrlySc/38BILN0wPN1buxMd7tZTYwaxXgmf3twxOdnbNKOS/bONT3aJASwvLzfHai5823VK86+eI8iNGzfiztdX9f3qIcLeg7yt7nOOee/91OuaLSSf7D2+ffs2gMXFxTNnznieB2B1dXXQe35Ghqn7QJaSbBlTHf2np21JbALwVm//KVc3I6AA1q+tAZienv6t3/ltItrd3d3a2hroBp6dYepu5Ei1il3MkCTVEh7iEWEFNd/8gXtvu9eV1dVVU9PfeullkGxsbAx69WdneLp3RhHG2zOImt1CpH4CMOhwa5cpLtSxCeVB3BQglcqTT7duxtW/srLCKgM048Mgx/kzqSH1lDF2DcH7G2w2yCFNvjDpl9b8k5A44draGoMA7D7auXvrMwz4xDw7Oe4PbDYj7WrUSQnosJMmhdpG46Cte9cM41Hf5DQp8zE1S2c05Bi/H+yp73g4Dn2tZNqu+XSdNZadqDQych0nSP8PpuxBzKBDjGg34O3n6SAKdt3l+v+UvcdkQ++cyjl6sz001scJngUBxMxH6/W2+iBQ5/zk0TA63bvO5hgWxsMccEP9LwOjGAfWvtusD4tU2NqLpGfP9T8aPOU2RnCNrlFETlcZfQt5OIZg77m+l3kqsbX2cfED2HW3d1V5MOp2NT97/Kp4dsMQ7H2g4uanTp8a7WXpXb7P39Kblx7NZQpSFLrbodDdDoXudih0t0Ohux0K3e1Q6G6HQnc7FLrbodDdDoXudih0t0Ohux0K3e1Q6G6HQnc7FLrbodDdDoXudih0t0Ohux0K3e1Q6G6HQnc7FLrbodDdDoXudih0t0Ohux0K3e1Q6G6HQnc7FLrbodDdDoXudih0t0Ohux0K3e1Q6G6HQnc7FLrbodDdDoXudvhf6196bOAzpLoAAAAASUVORK5CYII=",
+  "package": "com.iptvsharp.app",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "IPTV_App_Final (1).html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": false,
+  "fullScreen": true,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1790872840968
 }
