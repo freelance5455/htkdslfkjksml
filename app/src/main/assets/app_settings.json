@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "aa19bbfd-acf7-46ba-a842-8c9f60ba1608",
+  "appName": "Verity",
+  "appIcon": "iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAULSURBVFiFpZdbqFVFGMd/67Zv5xzNLKn0eO2lQz2kIGkSnnyIooeeuvkSUUYI4ksmp2SfIylJSkbhQw/hUxAYaaBEIEcIn3wIwVCwPNjJNPO29157r7XXZaaHWWuv2Tc9Oz8YZtbMN9/3n5n/fN8sgwHF/xtpGKqd1lKqEgsYWoIxiL05KVdmmLQdymEIlqVN1gAAxLGqHQdEyPjICk7dF4DLZ5kcGqIMYCeOUwCGNjMFoIOIYohCCCNOjT7F+MAArp1H2g7UG5BzVJ9jaxP7AAijrB2EUMiBEPDoWG9fPTsvnlHOTTNz/n8BAARNaAbw5LPd/szOjnOnkaCctzT6Fau7OPmkbUOuoEzk8pDPZbb77sC508h8DoLkHAt5bfVO+yxTmy06zIZh1vZ9VXsNmD/SvROtHZg+xqTfhEqtE2MHXENr99PpIcWSsu3W4ZcTTHcBcBzF9mLpLgBkUu7lU+soFNqHbBsM2Nj6Bjj5A5Odir6nrlEquZSAhUcguIapERIJIgRyCyAKCSK3DajnQakEtpPZPHkUuekVDBPA8ylXq1CtQq2miq07MAAsNo3DmjXXcetL21dqApbFls23eWa9y+VZjTyJNBqKD9UqBIEClU6dkzTrJZo+GLbgxM9/du+7uYBL/0LDgC8PNudqFvPI4WyzSsN9tCSIIGkLuPaHqnVOBHWXuAoFoHYrGb9HoD9yGGkX8lAqQrUGUa+AYoBtgpWrseRxmJmBsaeh5iYOJGCBMHweWwbXZ+HNd4apem7LltfI7DaSbttWQc6u1iDSoldLNPRGEv/f2mzy+2+CdWsXgXE9UxCqenEcrlyBJ1aOgHRVQBK9V19Nrrvx7dfIUlF9lIazVRWLmbLjaJGRhDjpt1RzhADirL+p3aBeO9DoSUIDkovRLVIrBu0xIW2bHfpzENutq4cEwKXz8N03gh37VTpNjVhW+zvA7IFRdGx1ENA6Rs8HovlMvVfhgy+SPn0HUg4sG4PXtzxA5WqpbQVpjm8T2VE6x9I6AXHmVIXy5yva1PwmmH4zSx6+B0tX3eGnYw2gCKatiNRpvxex+oERQDSPZSuAoZmuaea2nRnfRUKi1961OLTbo3pjRBFLX00fVuu8kCLRiy1ojvLZriqLVtIV9rbtxLBBMTJNqcp+zBtbF3LowE3+ugo7JhazaPE/YEYtMJ00ECkJYxVD6jdG+Wr/LK++fYP3J8CtKZCep/gSJIHNBmgGTAHlVkKSEBk32ToBlVtFDuy5QhDA8jFYv+EhVq1yuHihgqDBurU2fm2YWMZU7xic/TXk+FGPl16eZfvEKPkFs+pNIDPiBYF6F6QbB8DBvcgUQLGoRgr5RCOGyBjmx+9djh6HvOkgRciDD0MowL0NdQFrlsPq1RYbXsjh5DyQ4Ae0wnIKwPdh+4Ty3RatD+5B2jaMzFPfLQCAk0sM2RAGNtMnIiwJzz2/EMOpYTtBKyyHaS4yFLHTo/U8lWmDkKlde5nsArCvrJ5kAPkko+a0zNpK0RYYaTIytVuR1JHI2unDtJmAagbw4VSPJxmogfRsWiJ6lJDsuun9JDFljs67AKQg3EaWLIKwU2NwaQbgNrqdw10y9icfIR1bJSJbC0aD/BmBCnJhBB/vGeDHRJd9ZaQOopUTjGxy57+h7rzXqgcCALB7J9OOw8Y0CfVKRqACjMjOf6r8qWL6fQPoBGOYbLTMbDfiWGVUIebmVJf/AJxnKTylmjdwAAAAAElFTkSuQmCC",
+  "package": "com.verity.app",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "velt_com_permissao.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1790974833947
 }
