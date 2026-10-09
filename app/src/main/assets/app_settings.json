@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "e65a3afc-c884-4879-ac02-0a7dc6318a98",
+  "appName": "Farmer Marketplace (A)",
+  "appIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABI5JREFUeJzt3D1u1FAUhuEbxB6ygPTZRWq6tDTpUkViGZGyARradGyFPiUbQKKnGMmMZCdj+7vn5x6/T0kSGI5fzrWYn6vrx7sG7PUp+gFgbAQECQFBQkCQEBAkBAQJAUFCQJAQECQEBAkBQUJAkBAQJAQECQFBQkCQEBAkBAQJAUFCQJAQECQEBAkBQUJAkBAQJAQECQFBQkCQEBAkBAQJAUHyOfoB7PT28hr9EPq7ebqPfgibXQ30AVMlo3nPKDENENChuplLXlLegA7ezVzOkpLeRFPPXM6ZpNtAOceUSqpVlGsDUc8aqaaUZQOlGsooMqyiFBuIevbJMLf4gDJMYVzh0wsOKPzvX0DsDCMDop5eAicZFhD19BU1z5iAqMdCyFTjb6IxtICAWD92/GfrHRD1WHOeMEcYJK4BsX58eM7ZLyDq8eQ2bY4wSAgIEqeAOL/8+cycDQQJAUHiERDnVxSHybOBICEgSAgIEvN3ZRzkBujLj4f5L/78+t3/kcyZvnlj1E/nSGKxm/lXk5RkgYB2+jidxW8umRH3QHtsqkf8qeQIaDOlg3oNEdA2egHFGiKgDXpd+0oNEdBafa96mYYICBICWsViYdRYQgQECQFdZrcqCiwhAoKEgCAhoAusT5nRTzECguQoz8bfPi/8Q//1reDT486KB7TYzfyrlLRb2YA+Tmfxm8loh5r3QJvqEX/q4AoGpHRAQ1tVC0gvgIY2KRVQr2t//vtYv5B59BdK1wmo7+ZgD61UJCCL601DaxQJyJTdKTP6+dVqBGS3KlhCF1UIyIHFqiiwfhoBQTT8UxnWp8zt88Pf339aa28vrx1felFj/TQ20Ca9rnqZehoBbaVf+0r1NALaQSmgWD2NgPbZ10G9elqBm+gopxpW3laXTOeEgCRTGZk/4s4UAfVxhFYWDX8PZP061NN/AuE9wweEWAQESYWA7E4xzq+LKgSEQEUCslhCrJ81igTUejdEPSvVCaj1a4i3qK5XKqDW49pTzybVAmpaAdSzVcGA2t4OqGeHss+FnWpY+YJX0tmtbEAnUxl8wJSR4gFNaMVIzXsguCEgSAgIEgKChIAgISBICAgSAoKEgCAhIEgICBICgoSAICEgSAgIEgKChIAgISBICAgSAoLEPKCbp3vrPwIfsJ4/GwiSo7ytZ6u3l9fohzAGNhAkHgFxGxTFYfJsIEgICBKngDjF/PnMnA0ECQFB4hcQp5gnt2m7biAa8uE5Z44wSLwDYglZc55wwAaiITv+s+UIgyQmIJaQhZCphm0gGuorap6RRxgN9RI4yeB7IBrSxc4w/iaahhTh04sPqCWYwqAyzO3q+vEu+jH8xyuRV8qQzkmKDTTJM5fMUk0p1waasIoWpUrnJNcGmiScVLicM0m6gc4dfBvl7GYyQECTQ5WUvJvJSAGdKxnTKNGcGzUgJJH0JhqjICBICAgSAoKEgCAhIEgICBICgoSAICEgSAgIEgKChIAgISBICAgSAoKEgCAhIEgICBICgoSAICEgSAgIEgKChIAgISBICAgSAoKEgCAhIEj+AXoaHWQBlpveAAAAAElFTkSuQmCC",
+  "package": "com.app.farmermarketplacea",
+  "versionName": "A 1",
+  "versionCode": 7,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#5B5BD6",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABI5JREFUeJzt3D1u1FAUhuEbxB6ygPTZRWq6tDTpUkViGZGyARradGyFPiUbQKKnGMmMZCdj+7vn5x6/T0kSGI5fzrWYn6vrx7sG7PUp+gFgbAQECQFBQkCQEBAkBAQJAUFCQJAQECQEBAkBQUJAkBAQJAQECQFBQkCQEBAkBAQJAUFCQJAQECQEBAkBQUJAkBAQJAQECQFBQkCQEBAkBAQJAUHyOfoB7PT28hr9EPq7ebqPfgibXQ30AVMlo3nPKDENENChuplLXlLegA7ezVzOkpLeRFPPXM6ZpNtAOceUSqpVlGsDUc8aqaaUZQOlGsooMqyiFBuIevbJMLf4gDJMYVzh0wsOKPzvX0DsDCMDop5eAicZFhD19BU1z5iAqMdCyFTjb6IxtICAWD92/GfrHRD1WHOeMEcYJK4BsX58eM7ZLyDq8eQ2bY4wSAgIEqeAOL/8+cycDQQJAUHiERDnVxSHybOBICEgSAgIEvN3ZRzkBujLj4f5L/78+t3/kcyZvnlj1E/nSGKxm/lXk5RkgYB2+jidxW8umRH3QHtsqkf8qeQIaDOlg3oNEdA2egHFGiKgDXpd+0oNEdBafa96mYYICBICWsViYdRYQgQECQFdZrcqCiwhAoKEgCAhoAusT5nRTzECguQoz8bfPi/8Q//1reDT486KB7TYzfyrlLRb2YA+Tmfxm8loh5r3QJvqEX/q4AoGpHRAQ1tVC0gvgIY2KRVQr2t//vtYv5B59BdK1wmo7+ZgD61UJCCL601DaxQJyJTdKTP6+dVqBGS3KlhCF1UIyIHFqiiwfhoBQTT8UxnWp8zt88Pf339aa28vrx1felFj/TQ20Ca9rnqZehoBbaVf+0r1NALaQSmgWD2NgPbZ10G9elqBm+gopxpW3laXTOeEgCRTGZk/4s4UAfVxhFYWDX8PZP061NN/AuE9wweEWAQESYWA7E4xzq+LKgSEQEUCslhCrJ81igTUejdEPSvVCaj1a4i3qK5XKqDW49pTzybVAmpaAdSzVcGA2t4OqGeHss+FnWpY+YJX0tmtbEAnUxl8wJSR4gFNaMVIzXsguCEgSAgIEgKChIAgISBICAgSAoKEgCAhIEgICBICgoSAICEgSAgIEgKChIAgISBICAgSAoLEPKCbp3vrPwIfsJ4/GwiSo7ytZ6u3l9fohzAGNhAkHgFxGxTFYfJsIEgICBKngDjF/PnMnA0ECQFB4hcQp5gnt2m7biAa8uE5Z44wSLwDYglZc55wwAaiITv+s+UIgyQmIJaQhZCphm0gGuorap6RRxgN9RI4yeB7IBrSxc4w/iaahhTh04sPqCWYwqAyzO3q+vEu+jH8xyuRV8qQzkmKDTTJM5fMUk0p1waasIoWpUrnJNcGmiScVLicM0m6gc4dfBvl7GYyQECTQ5WUvJvJSAGdKxnTKNGcGzUgJJH0JhqjICBICAgSAoKEgCAhIEgICBICgoSAICEgSAgIEgKChIAgISBICAgSAoKEgCAhIEgICBICgoSAICEgSAgIEgKChIAgISBICAgSAoKEgCAhIEj+AXoaHWQBlpveAAAAAElFTkSuQmCC",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": true,
+    "style": 1,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": true,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
