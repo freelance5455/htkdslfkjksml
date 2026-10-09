@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "956aa8aa-ecb6-4bef-98c3-e1eadd217cbe",
+  "appName": "EduPilot",
+  "appIcon": "iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABEFJREFUWIXNWdGWqzYMnBH0J/vVfe5ftC/dXCxNH2yMMeCQZLunOjl7EjDWaCSNjZe///EnAAeXZfnlIcmneZqmhyIiHpK7J1BSgAC+mKIxrBYSAEkAIkJSvkv9lq+TxMHyRUl5vCSQAGaSeS6SJKuzgCIipIiIFZaksFBj1YFWWMdb1X0d2aGs40nmx+bHZJKSkIwLLCl+MRTuYEQ8gICSJMklAJ5iDa64jjI/8+QSlGcnAXAjdONVEFdENSQ0bM7uLsmFiHAPd18UEeGgpAWo372E2VOywmquc8dQy03N1zGn7ZX5L0iQS654ICWkR4S7O01SqSpSUCgk5eh3aaou6ydEkiUpAiEoV4uggESAUJNokju2vr6+AHjI3b98SSktQgYEIP8NspYkdzWDWpotW1tegOytK7WnNv+dEoCQUkqP5O4RIgA3AXBu/hIgYMLGP0mgJEjNpyFRllkpQyBIhPLdfR7bX/OyLBXWktzdwcnMcniq2SnlvDGR0bRF00VcBkPd3XFVFVj//CpyIBGcbDIXUkiFg4zOCM7cNUueK7bethxx7yK2GKqZ2WnVb7BqTG0VV/24siqD9cpV9Vx5HmACMAdQm799hhKAKZNV2g8A0rSxSNUkDyI4BaRalNUygAkTMludLo/jaGe5M67jdd8uZ9omAJgTijIXArJ+cEdBm1FbvzeyRVwna0JWkBVNN7DJUKnRDGsb0BbWUGZO17vLGtrfuUpFZSuPn7OKCIAVbYkm6zzUTbd85QUeDYud2Y7rA1sV0xVbp9iv7mIfN0eje4aOXZzz02ZpRopcWlxDN5qZdZmqPTGZVX+tV+1Tz9UgP42qs4qsJLEP+hBK9+Tx4nHArr+OE92wGUaCaKc71dLskjTspWRrbKHWXL744vK8g9Xpx8AqkZ323Hz8HVitDdQhF0s7do2qH7ntdi6lYwjrJqYrYq667Kn4PYEVnTINZDETo34lOd2ofIjM6rdT7T5HWJv/4u57UFqb8+tXbezW5bl2WP8qI/TxtFtnxvQGLOu8DuxmRj4pqWqzNa8Auc94VmBVkNxG6Bs1LhuHd7g6CsTTFX5s7VvQW3hWWEc0A2QALL4hR89hjTlol8iVgFuwPuzHUlvVeplAg+QGnqZGt/fHN8y63+Mob+5aX30tONqJbpkZD5unm9PVpJfDAegY+eWzWRMInJb8J030LaIFYO5i4fq5dKBR9FuLCFZG3mUrWyBwupf/nK3POZun/RLHXe+du74z79vIoq2tV6b7ETkNvpb7cW3h7HXtDdt8fL5Pag8yPl0TvVGGW9vu4Vr1/OnrBXddc4lXu/cbbUzn+cv+0A4H7a9YC+Z4rAmAMrwF6xvsaeXNVyct/53dOQH4abbabu2s7Yb5dVV4rbYOu+1ymn7cpKxHX4b/byfy9t48b8WOhVH+6XL1Nrs/USyUnI5tT2hvYvph+xfumbo1CcQkYwAAAABJRU5ErkJggg==",
+  "package": "com.edupilot.app",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "Abahouz-main/index.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1791570508621
 }
