@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "9e26666c-1646-495a-a3a7-15ab0dc09a10",
+  "appName": "Tera Battle",
+  "appIcon": "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",
+  "package": "com.tera.battle",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "pixel_sword_survival.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1791919594835
 }
