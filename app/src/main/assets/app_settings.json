@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "8dcbccbf-d12b-4d44-89ef-5d26d8783920",
+  "appName": "Acordes Musicales",
+  "appIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABFpJREFUeJzt3bFOHFcUx+FxEokqspSK90EUrmjSukiXIorEkyBFKdLlBdIgWUoR+X14BYpILtZaY2DXw/5Hc85lvq+yXFzg+Ddzh/WFffPj258mONV31Z8AYxMQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQER2WJAlxfvLi/ejbJscz9UfwLfdndzv+yC7z+MtOz59dmyCy6raUCL/zOMaz+KniW1C0g6h/QsqdEz0N3NvXrmaDWlLgG1Gkp/fS62FgE1mcVwOsyt+BlozggW3/IvL4ZZ9pvzubu5r30kqgzo+HRaPSpW2Q/hyKxqG2qxhT1yfn2mnkeOz6RwLysL6NDXLJ0jjmRU1VBNQOpJtGqoICD15Po01OUZSD0v1WRiawf07CXSZBbDeXZuK9+E6u9A6kmUT2/VgDq8croFa865+A5UfgG9ArUzrN/CGJqAiKwX0NON2f61lKeTXO0x6M06b/v95x9/rfBRZrq9vZ2m6erqaohlT/bb77+u8FFsYURWugNNnbaw3Q/f/Pfx3yGWnalqvO5ARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEScie6+7MmciWYAzkR3X3YmZ6IZkoCICIiIgIgIiIiAiLR7u6cm+rzo0JyAvnL8HQV2f1DSQ7awL2b+Th2/6fEhAX32oiw0tCegaTopCA3tCOj0FDQ0CSiMQENbD4iQgIhsOqBFNqCN72KbDoicgIhs+lD9z///ssiC/3z/9+RQPZxg04fql3r+3X0hDtVvziIj3vh/zm86IHICIrL1gMINaOP71ySgKYhAPZOAdk5IQT07AvrsRUGoZ09AX8zMQj0P+amMr+zj6POyZ3MCep5cZrKFEREQEQERERARAREREBEBEdn0meghlj2ZM9EMYNNnoodYdiZnohmSgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiDPR3Zc9mTPRDKDyTPRUdCz69Z2JLpztencgvzBlTatN2xZGpDigjb/Z1iJqZ7hqQHaxdaw55/otzE0oUT69+oAY2toBPXt3Lb+MBtXhlZGCO5CGFtGhnqnVFqah+frMqiagQxdKn7l0dmhKJd/klt2BNHSCu5v7VvVMtVvYkYZk9MjxmRS+wFb8Vgfn12eH5rL/+y2//DjnQqqdT/17ZRxpaGfxu9H7DyMte1z51dXiu7DyKQyqw9xaBDT1mMVAzq/PmkysS0BTp6E012pK9c9Aj+ym47uwp1p1s9cuoJ2Hw9p4TD272VvvTDSvUqNnIEYkICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIvIJgfll7kT/zDgAAAAASUVORK5CYII=",
+  "package": "com.app.acordesmusicales",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#5B5BD6",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABFpJREFUeJzt3bFOHFcUx+FxEokqspSK90EUrmjSukiXIorEkyBFKdLlBdIgWUoR+X14BYpILtZaY2DXw/5Hc85lvq+yXFzg+Ddzh/WFffPj258mONV31Z8AYxMQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQER2WJAlxfvLi/ejbJscz9UfwLfdndzv+yC7z+MtOz59dmyCy6raUCL/zOMaz+KniW1C0g6h/QsqdEz0N3NvXrmaDWlLgG1Gkp/fS62FgE1mcVwOsyt+BlozggW3/IvL4ZZ9pvzubu5r30kqgzo+HRaPSpW2Q/hyKxqG2qxhT1yfn2mnkeOz6RwLysL6NDXLJ0jjmRU1VBNQOpJtGqoICD15Po01OUZSD0v1WRiawf07CXSZBbDeXZuK9+E6u9A6kmUT2/VgDq8croFa865+A5UfgG9ArUzrN/CGJqAiKwX0NON2f61lKeTXO0x6M06b/v95x9/rfBRZrq9vZ2m6erqaohlT/bb77+u8FFsYURWugNNnbaw3Q/f/Pfx3yGWnalqvO5ARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEScie6+7MmciWYAzkR3X3YmZ6IZkoCICIiIgIgIiIiAiLR7u6cm+rzo0JyAvnL8HQV2f1DSQ7awL2b+Th2/6fEhAX32oiw0tCegaTopCA3tCOj0FDQ0CSiMQENbD4iQgIhsOqBFNqCN72KbDoicgIhs+lD9z///ssiC/3z/9+RQPZxg04fql3r+3X0hDtVvziIj3vh/zm86IHICIrL1gMINaOP71ySgKYhAPZOAdk5IQT07AvrsRUGoZ09AX8zMQj0P+amMr+zj6POyZ3MCep5cZrKFEREQEQERERARAREREBEBEdn0meghlj2ZM9EMYNNnoodYdiZnohmSgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiDPR3Zc9mTPRDKDyTPRUdCz69Z2JLpztencgvzBlTatN2xZGpDigjb/Z1iJqZ7hqQHaxdaw55/otzE0oUT69+oAY2toBPXt3Lb+MBtXhlZGCO5CGFtGhnqnVFqah+frMqiagQxdKn7l0dmhKJd/klt2BNHSCu5v7VvVMtVvYkYZk9MjxmRS+wFb8Vgfn12eH5rL/+y2//DjnQqqdT/17ZRxpaGfxu9H7DyMte1z51dXiu7DyKQyqw9xaBDT1mMVAzq/PmkysS0BTp6E012pK9c9Aj+ym47uwp1p1s9cuoJ2Hw9p4TD272VvvTDSvUqNnIEYkICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIiIgIgIiIiAiAiIiICICIvIJgfll7kT/zDgAAAAASUVORK5CYII=",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": false,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
