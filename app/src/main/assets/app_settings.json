@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "fd75fe6b-06a6-49ee-8806-2d12d9711299",
+  "appName": "Neon Dash",
+  "appIcon": "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",
+  "package": "com.neon.dash",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "neon_rift_arena-2.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1792096820514
 }
