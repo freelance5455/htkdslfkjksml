@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "fd36df9e-62dd-445c-aad5-feb1bf952d88",
+  "appName": "Sprite Editor",
+  "appIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAJ4SURBVGiB7ZhPSBRRHMc/RRfpsF6NNbAkZMMl9ZAeWkIi7CZkHTy4/SPKSyFR0GVZD6EeOoVC9IciDHKDTh08RGyH3YsVBbKEulCL1sm92B63w8yvcZ6a+3QYYt/73N6bt29m5zPf33szYLFYLBaLxTz2BD1h94mL1fXt/IengZ9jK/aGdaIw2LfbCVQTuewT3/GeBFUIx1BdmdG+W6oJ4fSV87727KNXgM3Mjqk5M2JEDKSH+v45XsyESV2Z2fZ5Vo3093YD0BFt9I37VCr7+qU9PDgC2GqmTc2ZESNv3uUB6HAzIwbUftVcGJhpRhhNngEg+TMJQET67zwDoL93FdA3E8SezmwzQtPh2Kb9v8bcncCD2ZrmESOyp/OqoP6ezmwzi+PJTft/Z8YBWFmcB7w7LIgBudPSjpbfA3AufgiA2K1J3Uv6i5lmZB2Zf5EFoKt5DoBjLU2+cY+zCwDcHfT/XjIh7zeT0/cBiEzfBLwMDqWHAch/LdpqpkWp8SQAmbfOsz/QvlYFeJ66BkDf9dsApFyTuSlHkWQi92UJgMrrCWdC10hDWycAlxOtcqoqQEbDkNlmVMRUw1nHyNLEBcDLVsU1JkiVi7hVT7JSKXwE4MjBA+7IBe1rMcvMuhXYt04MtLc4WbnRBkBP4hIA0bJjRDIk644g7zep+DKwcSfx7fuy9p8QzDIjqCt3zH3zHFuTEQUAZtxqJdm4l+70zZOKlwBvPZKMqIYki1Cs9RLry0xg3822Qs2YrCOfiysAzP1w1M68fAh4Va1w/Cqg9w3BbDO7RQwJXc37gY2GOHoK0PvKY80EiWpK8KqZH2PMWCwWi+W/4w/AMuUy4cR++gAAAABJRU5ErkJggg==",
+  "package": "com.app.spriteeditor",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "sprite-editor/index.html",
+  "themeColor": "#5B5BD6",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAJ4SURBVGiB7ZhPSBRRHMc/RRfpsF6NNbAkZMMl9ZAeWkIi7CZkHTy4/SPKSyFR0GVZD6EeOoVC9IciDHKDTh08RGyH3YsVBbKEulCL1sm92B63w8yvcZ6a+3QYYt/73N6bt29m5zPf33szYLFYLBaLxTz2BD1h94mL1fXt/IengZ9jK/aGdaIw2LfbCVQTuewT3/GeBFUIx1BdmdG+W6oJ4fSV87727KNXgM3Mjqk5M2JEDKSH+v45XsyESV2Z2fZ5Vo3093YD0BFt9I37VCr7+qU9PDgC2GqmTc2ZESNv3uUB6HAzIwbUftVcGJhpRhhNngEg+TMJQET67zwDoL93FdA3E8SezmwzQtPh2Kb9v8bcncCD2ZrmESOyp/OqoP6ezmwzi+PJTft/Z8YBWFmcB7w7LIgBudPSjpbfA3AufgiA2K1J3Uv6i5lmZB2Zf5EFoKt5DoBjLU2+cY+zCwDcHfT/XjIh7zeT0/cBiEzfBLwMDqWHAch/LdpqpkWp8SQAmbfOsz/QvlYFeJ66BkDf9dsApFyTuSlHkWQi92UJgMrrCWdC10hDWycAlxOtcqoqQEbDkNlmVMRUw1nHyNLEBcDLVsU1JkiVi7hVT7JSKXwE4MjBA+7IBe1rMcvMuhXYt04MtLc4WbnRBkBP4hIA0bJjRDIk644g7zep+DKwcSfx7fuy9p8QzDIjqCt3zH3zHFuTEQUAZtxqJdm4l+70zZOKlwBvPZKMqIYki1Cs9RLry0xg3822Qs2YrCOfiysAzP1w1M68fAh4Va1w/Cqg9w3BbDO7RQwJXc37gY2GOHoK0PvKY80EiWpK8KqZH2PMWCwWi+W/4w/AMuUy4cR++gAAAABJRU5ErkJggg==",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": true,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
