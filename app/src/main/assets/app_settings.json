@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "ce0e3dd8-8ba9-4aaf-82f6-718a52ad4b4c",
+  "appName": "Charles - Mini Games",
+  "appIcon": "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",
+  "package": "com.charles.mini.games",
+  "versionName": "2.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "mini_games_v34_2d_parkour_fix-4.html",
+  "themeColor": "#009489",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1792395818040
 }
