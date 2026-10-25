@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "b6e828d4-676c-45fb-adc0-744cdc24c52b",
+  "appName": "بوليصة الشحن",
+  "appIcon": "data:image/png;base64,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",
+  "package": "com.mazag.app",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#5B5BD6",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,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",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": true,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": true,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
