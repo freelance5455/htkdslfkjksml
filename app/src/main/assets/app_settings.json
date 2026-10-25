@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "765c56fb-c067-4357-a337-f8fdb1ce4061",
+  "appName": "Chillzombie",
+  "appIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAYAAADHLIObAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAQ3SURBVHic7VvrcuwgCIadvv8re36cNTUGkZuXpPlmOtN2VyBfQBAVYS+k4ndcZoUBOxh7kJfSL4+ICLCHfSKsMpQkL+NuJAKsMTZR5GXckUSA+QaPIrEttBBvkCtGtPD8QJTcSBJPgji5HflJoZPFT4SQLw6iELE2kCVRo+MrTDzgSyAAQWJKibLVhCiPLEms5XZJZLylViI2iCGw1rGNR7Ik9gZXY9hsLoVimgib2iJDm4SCkJDwX5X1P87xLm/8CjjJ8WBl6TTUI6XkBCUiKJKHBKGEjyIyhhmLYuFLIQh3EesZfAnHIrREoYqIYd7oRZHlAQy8eOdIMzKJ1QMsQ0rp+IH/EaV6w6FEFkaoxuxCZoaFUOsTdJd7giIcwbBSWQFJNTCEyDuiExVdnoYX5DvDm2C8g8lsHemhvTlzx+LdTWSZfQPWxxZjInS6CW2FdlhXpAdvxs7jLYRWbb+LaG5o/XmzAcu4vju0R5c7gaEP0O5jnj5r1pGamnAnEqN0VLVk8W/6WaeubGYW3lG6KjIREclonUbkitXLKDKBmPJYIi1LPgorl4CDyLxA6pHPWsYYwZHZJbIx6YqxQ0Nihg01kZI1NEoN24HEjNEhLk42UfPlE0Bxsayx+zSQVXvzy9UetOC720Gxp9MdW/Kh8kiqOH0aqoL79FN8dh1X/S3etPp+mf18V3Tslhh/2c83zZFFSfQYKPuTl2isiXxkuEpgqErQPEc+HRYy8y8vkRWs9fJLJAELmRSRf3aeLKEl8/XIILxEMtB4ZYtIV3jvXGOOsu31yA6kXvkSGYRMJLlB/rTw7nWrWs8r8coP/C7Aw8m8C/IBB89ZzdMxZe50BYDNy3Z5EcJLU+bO0GmO5DwTjN65Q4hLbPB2tD5QEdQ58ss2N/8yyKzd2YLtdospeaswS7f0pIU73FeQOUHnwY1oIwugnTS0xs6aFqJJ5G79IqL8DLk365Vy7nA+UgBExIPMT/FPj0RVHTbyQSef1Ty2G0KXiJqTu9EbaFp5mQAJmZ0a8rJnY/ZKz2F8L6G77GjWc+Qp7jXwPkx9U2KkrhFYfmGJ8uTJRLHOI93vXrpns9ENWfczD+mQ/0VwWXv4ujrixpgF0dfnNMJucR1YCullLA3h0mSTi64Tk3ckdoQ3RghkmdyRaAGRkkb3Bd7yh1VirUl3gNZzNUtECyPu7B+Z8EaFNYDiwpLhYFECQXuOQ3kEOeKFAHFC2SW0wKh97eRdA0d6T4vEyCsvGkMT8/2QbF55HdlEdchtNmWB9lTVSwzL2kFbtc0X5Xw5zS1mRqcKnqxtejjG68Ih6SOG6XKON2VyrQ7HC5vWMBhaRyoQGmazSZyurAFu4ld74woSlyhsgPLIW4T0oXe2QiGsngiw6Jl2JFJF4moCt1BOQEziLgRmbGHEF9pjMzvZvo0xJImKlc9y/ANZ4YWqVWeKuQAAAABJRU5ErkJggg==",
+  "package": "com.app.chillzombie",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#000000",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABSCAYAAADHLIObAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAQ3SURBVHic7VvrcuwgCIadvv8re36cNTUGkZuXpPlmOtN2VyBfQBAVYS+k4ndcZoUBOxh7kJfSL4+ICLCHfSKsMpQkL+NuJAKsMTZR5GXckUSA+QaPIrEttBBvkCtGtPD8QJTcSBJPgji5HflJoZPFT4SQLw6iELE2kCVRo+MrTDzgSyAAQWJKibLVhCiPLEms5XZJZLylViI2iCGw1rGNR7Ik9gZXY9hsLoVimgib2iJDm4SCkJDwX5X1P87xLm/8CjjJ8WBl6TTUI6XkBCUiKJKHBKGEjyIyhhmLYuFLIQh3EesZfAnHIrREoYqIYd7oRZHlAQy8eOdIMzKJ1QMsQ0rp+IH/EaV6w6FEFkaoxuxCZoaFUOsTdJd7giIcwbBSWQFJNTCEyDuiExVdnoYX5DvDm2C8g8lsHemhvTlzx+LdTWSZfQPWxxZjInS6CW2FdlhXpAdvxs7jLYRWbb+LaG5o/XmzAcu4vju0R5c7gaEP0O5jnj5r1pGamnAnEqN0VLVk8W/6WaeubGYW3lG6KjIREclonUbkitXLKDKBmPJYIi1LPgorl4CDyLxA6pHPWsYYwZHZJbIx6YqxQ0Nihg01kZI1NEoN24HEjNEhLk42UfPlE0Bxsayx+zSQVXvzy9UetOC720Gxp9MdW/Kh8kiqOH0aqoL79FN8dh1X/S3etPp+mf18V3Tslhh/2c83zZFFSfQYKPuTl2isiXxkuEpgqErQPEc+HRYy8y8vkRWs9fJLJAELmRSRf3aeLKEl8/XIILxEMtB4ZYtIV3jvXGOOsu31yA6kXvkSGYRMJLlB/rTw7nWrWs8r8coP/C7Aw8m8C/IBB89ZzdMxZe50BYDNy3Z5EcJLU+bO0GmO5DwTjN65Q4hLbPB2tD5QEdQ58ss2N/8yyKzd2YLtdospeaswS7f0pIU73FeQOUHnwY1oIwugnTS0xs6aFqJJ5G79IqL8DLk365Vy7nA+UgBExIPMT/FPj0RVHTbyQSef1Ty2G0KXiJqTu9EbaFp5mQAJmZ0a8rJnY/ZKz2F8L6G77GjWc+Qp7jXwPkx9U2KkrhFYfmGJ8uTJRLHOI93vXrpns9ENWfczD+mQ/0VwWXv4ujrixpgF0dfnNMJucR1YCullLA3h0mSTi64Tk3ckdoQ3RghkmdyRaAGRkkb3Bd7yh1VirUl3gNZzNUtECyPu7B+Z8EaFNYDiwpLhYFECQXuOQ3kEOeKFAHFC2SW0wKh97eRdA0d6T4vEyCsvGkMT8/2QbF55HdlEdchtNmWB9lTVSwzL2kFbtc0X5Xw5zS1mRqcKnqxtejjG68Ih6SOG6XKON2VyrQ7HC5vWMBhaRyoQGmazSZyurAFu4ld74woSlyhsgPLIW4T0oXe2QiGsngiw6Jl2JFJF4moCt1BOQEziLgRmbGHEF9pjMzvZvo0xJImKlc9y/ANZ4YWqVWeKuQAAAABJRU5ErkJggg==",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": false,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
