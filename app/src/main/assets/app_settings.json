@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "b01ce445-e14b-4166-bd66-83d56e5bf51f",
+  "appName": "Carpet City 1 : Demo",
+  "appIcon": "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",
+  "package": "com.carpet.city.a1",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "Carpet city 1.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": true,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1793086312909
 }
