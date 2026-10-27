@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "00598dcb-c4e9-48d9-a663-47ea0e2dcdd0",
+  "appName": "DADA BHAI TELECOM",
+  "appIcon": "iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAIAAAB7GkOtAAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAACppJREFUeJzt3T2S1FYUgNHGRRUhzoaQGC/FW/AyvAyW4S14KeSEOCN15gCXPdA9M2q1pCf1d84KVJp37yeJn3n19uHDCYCen0ZfAABjCABAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBAlAAARAkAQJQAAEQJAECUAABECQBA1OvRF8DC3nx8P/oSuFt///559CWwpFdvHz6Mvgbms+4ZThWOSwCOx9Jnt8TgWATgGCx9DkcM9k8Ads3e5w4owW4JwE5Z/dwZGdghAdgXe5+7pwT7IQB7YfWTIgN7IADjWf1kycBYAjCS1Q8nGRhHAMaw+uExDRhCAAaw/eEiGdiYAGzK6ocXycBm/G+g27H9YQqTshlvAFtwoGEGrwJr8wawOtsf5jE7axOAdTnBcAsTtCqfgNbi4MKCfA5agzeAVdj+sCwztQYBWJ6TCmswWYsTgIU5o7Ae87UsAViS0wlrM2ULEoDFOJewDbO2FAFYhhMJWzJxixCABTiLsD1zdzsBuJVTCKOYvhv5h2A3cf5e9Ndvf46+hGN7+OPX0Zewd/6N2GwCMJ/t/wx7f3FK8AwNmEcAZrL9n2L1r0oGnqIBM/gzAJZk+6/NHWZB3gDm8Ph/zmLamFeBc14CruUN4Gq2/znbf3vu+TmzeS0BuI4Tds4mGsWdP2dCryIAAFECcAUPF+c8hI7l/p8zp9MJwFRO1TnbZw/8FM6Z1okEACBKACbxQHHOg+d++FmcM7NTCMDLnCQ4IpP7IgEAiBKAF3iIuMg3h73xE7nI/D5PAACiBOA5Hh/g6EzxMwQAIEoAnuTBAe6DWX6KAABECcBlHhngnpjoiwQAIEoAAKIE4AJvi3B/zPU5AQCIej36AnbHY8J6fn73y+hLOICvXz6NvoS79ebje784/jFvAGzE9p/o53e/uFdsQwBYnY02gzvGBgTgO77/sB8asAYz/pgAsC5b7BbuHqsSAFZkf93OPWQ9AgAQJQD/83EQCkz6fwQAIEoAAKIEACBKAP7lsyB0mPdvBAAgSgAAogQAIEoAAKIEACBKAE4nfyUAekz9SQAAsgQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogQAIEoAAKIEACBKAACiBAAgSgAAogSAFX398mn0JRyee8h6BAAgSgBYlwfYW7h7rEoAWJ0tNo/7xtoEgC3YZddyx9iAALARG22ir18+uVds4/XoCyDEXoNd8QYAECUAAFECABAlAABRAgAQJQAAUQIAECUAp9Pp9Pfvn0dfArApU38SAIAsAQCIEgCAKAEAiBIAgCgBAIgSgH/5O2HQYd6/EQCAKAEAiBIAgCgB+J/PglBg0v8jAABRAgAQJQBAiO8/jwnAdxwOoEMAAKIEAKjwiv8DAfiRIwJECABzPPzx6+hL4Dt+IswgABd4CYD7Y67PCQBAlAAwk28O++Fn8SKP/xcJwGWOC3D3BID5PHjugZ8CswnAk7wETGH7jOX+T2GWnyIAcFS2PzcSgOd4cJjCGhrCbZ/IFD9DAFiAZbQxN5xFvHr78GH0Nezdm4/vR1/CYfz125+jL+H+2f7Tefx/njeAlzlD09lNa3OHpzO5L3o9+gK4N982lFeBxVn9LM4noKl8CJpHCW5k78/j8X8KbwCsy/6C3fJnAFN5oICjMK0TCcAVnCrYP3M6nQAA98P2v4oAXMfxAu6GAFxNA2CfzOa1BGAO5wz2xlTOIADA4dn+8wjATA4ccHQCMJ8GwB6YxNkE4CZOHoxlBm8hALdy/mAU03cjAViAUwjbM3e3E4BlOIuwJRO3CAFYjBMJ2zBrSxGAJTmXsDZTtiABWJjTCesxX8sSgOU5o7AGk7U4vxJyLX6FJCzF6l+JAKxLBuBGtv96fAJal7MLtzBBq/IGsAXvAXAtq38DArAdGYCJbP9t+AS0HWcapjApm/EGMIBXAbjI6t+YAIyhAfCY1T+EAIwkA3Cy/ccRgPFkgCyrfywB2AsZIMXq3wMB2BcZ4L7Z+7siADulBNwZq3+HBGDXZICjs/f3TACOQQk4Fnv/EATgeMSA3bL3j0UAjk0MGM7SPy4BuDeSwHrs+jsjAABR/jdQgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgCgBAIgSAIAoAQCIEgCAKAEAiBIAgKh/ABc7i+BxxNu6AAAAAElFTkSuQmCC",
+  "package": "com.dada.bhai.telecom",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#8FCBFF",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1793109946168
 }
