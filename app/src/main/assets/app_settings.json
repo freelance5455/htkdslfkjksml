@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "bff3e669-cea6-432d-8bf4-c0aaed2340d5",
+  "appName": "Gr Compta",
+  "appIcon": "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",
+  "package": "com.gr.compta",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "ComptaFamilleGR-Android/app/src/main/assets/index.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": true,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1793131384556
 }
