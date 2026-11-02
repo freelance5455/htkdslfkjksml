@@ -1,52 +1,66 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "d89272c1-eda3-46b5-af41-ad94ebfc04a4",
+  "appName": "ميزانيتي INVEST",
+  "appIcon": "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",
+  "package": "com.invest.app",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "ميزانيتي-المرجعية-صندوق-الطوارئ-تغطية-اختيارية-وتض (1).html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": true,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#F3F4F6",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": true,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [
+    {
+      "image": "",
+      "title": "",
+      "description": ""
+    }
+  ],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1793655195742
 }
