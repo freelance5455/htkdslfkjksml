@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "9b5d1dab-4128-4e7d-8af9-d181dc890c5d",
+  "appName": "KalenderMK",
+  "appIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAASISURBVHic7d09bltHGIbRcZAVpLKbAKkEyDtIZe8jZYqsIIBXECArSJEy+3DnHTiAqwBp3GULTiERYBzR+uHw3u+b95xSEMm5M/NwJIEinz2/fvVpQKiv9h4A7EkARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARPt67wFU9vH92/997cXL1zuMZI7VrmcGJ8AJd22WL329utWuZxYB3OG+TdFt06x2PTMJ4DMP3QxdNs1q1zObAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoS70c+rsfflv68S7todfz1x8/XXgk22kfwGqbsIPP57xzEG0DsPHrOKxFxxBa/g5g89fUcV1anQAdJzhNt9OgzQlg8/fSZb1aBNBlMvmvDutWPoAOk8hp1devfABwSaUDqP7swcNUXseyAVSeNB6v6nqWDQC2UDKAqs8WnKfiupYMALYiAKKVC6DiMck81da3XAB7+/6XD1O/b2+rXc9sArjDfZuh22ZZ7XpmEsAJpzZF182y2vXM0url0FtbbXOsdj0zOAGIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaOUCePfmau8hcEHV1rdcALAlARBNAGym2o8/YxQNoOJEsaaSAcBWygbgFFhL1fUsG8AYdSeNx6m8jqUDoL/Km3+MBgFUn0B6Kx/AGCLoqsO6tQhgjB6TyY13b67arFebAMboNbGpuq1PqwAOuk1yio7r0vad4Q6T7d3O9tVx0x9rG8DB8QKIYRvdN/2x9gEcW2lh2EbL3wFgFgEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEG2pl0Kc68+//3nyba+//WbXMcx6/Cpj2IoT4NY5m3/G7c+9jxmPX2UMWxLAWGfzdI94DwIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgDGvNexn3M/M8Zw7n1UGMPWBHCr++ZZJeKt+Y+wIxUW0Bi25QQgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmleDHvH5ADeufv/5Sbf78OOv08awFSfAre5vLT7rbcmfuvnPve1eBDB8PsDBjA3cLQIBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANHKBfDi5eu9h8AFVVvfcgHAlgRAtJIBbH1MrvLe+ufex4x/aPnSfVT78WeMogHswQdk3Dgngo7/Efbs+fWrT3sP4pSP79/uPQQmqfjsP4YTgHClA6j6rMHjVF7H0gGMUXvyuF/19SsfwBj1J5G7dVi3FgHQT4fNP0ajALpMKL3WqvSfQU/x59G6Om3+MRqdAMe6TXKKjuvS8gQ45jTYX8eNf9A+gAMhbK/zxj9YJoBjYricFTb9sSUDgIdq+UswzCIAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIg2r8EWwEUWainZAAAAABJRU5ErkJggg==",
+  "package": "com.app.kalendermk",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#1D8272",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAASISURBVHic7d09bltHGIbRcZAVpLKbAKkEyDtIZe8jZYqsIIBXECArSJEy+3DnHTiAqwBp3GULTiERYBzR+uHw3u+b95xSEMm5M/NwJIEinz2/fvVpQKiv9h4A7EkARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARPt67wFU9vH92/997cXL1zuMZI7VrmcGJ8AJd22WL329utWuZxYB3OG+TdFt06x2PTMJ4DMP3QxdNs1q1zObAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoS70c+rsfflv68S7todfz1x8/XXgk22kfwGqbsIPP57xzEG0DsPHrOKxFxxBa/g5g89fUcV1anQAdJzhNt9OgzQlg8/fSZb1aBNBlMvmvDutWPoAOk8hp1devfABwSaUDqP7swcNUXseyAVSeNB6v6nqWDQC2UDKAqs8WnKfiupYMALYiAKKVC6DiMck81da3XAB7+/6XD1O/b2+rXc9sArjDfZuh22ZZ7XpmEsAJpzZF182y2vXM0url0FtbbXOsdj0zOAGIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaOUCePfmau8hcEHV1rdcALAlARBNAGym2o8/YxQNoOJEsaaSAcBWygbgFFhL1fUsG8AYdSeNx6m8jqUDoL/Km3+MBgFUn0B6Kx/AGCLoqsO6tQhgjB6TyY13b67arFebAMboNbGpuq1PqwAOuk1yio7r0vad4Q6T7d3O9tVx0x9rG8DB8QKIYRvdN/2x9gEcW2lh2EbL3wFgFgEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEG2pl0Kc68+//3nyba+//WbXMcx6/Cpj2IoT4NY5m3/G7c+9jxmPX2UMWxLAWGfzdI94DwIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgDGvNexn3M/M8Zw7n1UGMPWBHCr++ZZJeKt+Y+wIxUW0Bi25QQgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmleDHvH5ADeufv/5Sbf78OOv08awFSfAre5vLT7rbcmfuvnPve1eBDB8PsDBjA3cLQIBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANHKBfDi5eu9h8AFVVvfcgHAlgRAtJIBbH1MrvLe+ufex4x/aPnSfVT78WeMogHswQdk3Dgngo7/Efbs+fWrT3sP4pSP79/uPQQmqfjsP4YTgHClA6j6rMHjVF7H0gGMUXvyuF/19SsfwBj1J5G7dVi3FgHQT4fNP0ajALpMKL3WqvSfQU/x59G6Om3+MRqdAMe6TXKKjuvS8gQ45jTYX8eNf9A+gAMhbK/zxj9YJoBjYricFTb9sSUDgIdq+UswzCIAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIg2r8EWwEUWainZAAAAABJRU5ErkJggg==",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": true,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
