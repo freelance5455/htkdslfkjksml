@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "dd64f328-14e8-4349-a6ad-a5dcefccd45c",
+  "appName": "Eye Behind you Ultimate editio",
+  "appIcon": "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",
+  "package": "com.mangisgame_with_percy.com",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "eye_apk/www/index.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1793692376446
 }
