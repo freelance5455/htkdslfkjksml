@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "2abc9a9a-f449-4259-8e84-29301a0d4c52",
+  "appName": "Nitro Race: Performance",
+  "appIcon": "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",
+  "package": "com.nitro.race.performance",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "Roadster_Stunt_Rush_3D_UPGRADED.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1793798534828
 }
