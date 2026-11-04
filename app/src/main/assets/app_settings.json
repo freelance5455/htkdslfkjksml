@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "5dd4f43a-7223-4b62-9d34-0413e4ea6dd8",
+  "appName": "Noexis Kinect",
+  "appIcon": "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",
+  "package": "com.noexis.kinect",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "NOEXIS_KINETIC_v1.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": true,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1793766935788
 }
