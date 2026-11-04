@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "bd0adf62-8e63-4b3a-80ad-5728ae5873bf",
+  "appName": "Car Game",
+  "appIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAIAAAC1w6d9AAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABCFJREFUWIW1WduC3SAInCHp17T//3Wt0wcMId6SnN3loc0qwojc9PDXn9/oSOnbyOE483j9JADrxXX8Bcp/+rykvHZvtB4qCgBUzuIIE4LEiUYBioykS5AUcsjzG/wnCdqSLgIsLAAouyD7OZKqhUjWnVSDjb8JAtjVSKn/ZbuOz0etsSrRdIohJcEI0mDhDSrG4zjzGRZY6PtOm3WuE4MkmZ10yNnQAFnY/CIMAGAYR8OQJOE8xBEDAMB9yyp84DiN9qTWu1nM9lOcwKphkdicGrY9BpRQXwMVAEwAUHozyiTZBpLQDoA1loGrL5b4JkGd0MGRwmSzE5WmBzWceuI0Db+Z3a7ae+kkBZGsMIwA/g0UCIDv/qACQMcGzGzojaRnrQsyX5Jh7Jhv2sdvPX22cCVzciwZ3760ao2Vyew2WVQAEBtSjg1Y60M0swA9q3IXWnjeGNuh/jmsfnZXFLRcEy8h2mqiVqdMbJO54u7XIBhGHslxDaBXle8jkpJnE4+bC6YGYvUzjCqg+rx1LL9FUHuHEASQIgFskkgBIic+muhF3ZS0zkGzuknGByOz3CMLaW65SE99Z8fI7mz7Nh6+egpyMoIsfoB12CSx86oBsgfoPySHGwgylDWsmqgliec+8/ecClBEE20u2p440yLJP8pnn9FtdK9rz+5nHoku+cuA+5Bk5zdLL59npTVPQFGUqkM+yPAWmBZbfNWWNeRioyA+N2S6O+kSQpl5mMZE93G39BmniAgmvbYqdSpr52t7jTza1OAZRSe9pmykLHmhIthy1vCuKe1JG+pdaKCS9Z7QeYxVCQKkv0McJbN3kofjAwRrhuGS27biyaDbrHpJTJd6eymzI0uCCtIt4VZfBGccdIkS0lf0GX1gsDUdRQxIqWBWAxxZm8qtv8pcFXwAS+QiYeSq7UEw9bPvNdg63feD3jnGfTVX2XeIew9D8iRf0kvMTVW2pyN7VzefN7qL1MXlkwJyBDSXt3ofPMpp7sPM2ktiVWAtjv7+mFcVltmUmXnN2Bep59bVYvdlYst1ru95ovwPT7OvktYH7xMcT4p95lFqeSTdvy/8HJld7NL43/jpIdOzLve1wRbW8sG9484dIuMfW4fSp5d4p8Z46G7Cp4ed1wJ5G3ZJ300u7xunVx4ySyuX97MZ01tlH6Dpp3agxKtOiuTz27wPU7Wj94ySbD9XlSZ73W9DDTpXtvVvQc0mFo3AbQaf8TDRbFWuMQZsA/UAAcOyPRihcVq37E0MZo2Zpi975PTVZQ2r/3O2ZL2q7Ry9RjL93vGWHsFab2bSm3yJvh7COTYv5Eg/s9dzWFODJcce3ANmd8knft2PXH+ou0d8VqcCHL9d1t8WafOYWEwNIdZXD+HoYHnUlZ6fZL4AvHs/+4obPeyHg+0/9ie0fhHYC4UAAAAASUVORK5CYII=",
+  "package": "com.app.cargame",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#92FF00",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAIAAAC1w6d9AAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABCFJREFUWIW1WduC3SAInCHp17T//3Wt0wcMId6SnN3loc0qwojc9PDXn9/oSOnbyOE483j9JADrxXX8Bcp/+rykvHZvtB4qCgBUzuIIE4LEiUYBioykS5AUcsjzG/wnCdqSLgIsLAAouyD7OZKqhUjWnVSDjb8JAtjVSKn/ZbuOz0etsSrRdIohJcEI0mDhDSrG4zjzGRZY6PtOm3WuE4MkmZ10yNnQAFnY/CIMAGAYR8OQJOE8xBEDAMB9yyp84DiN9qTWu1nM9lOcwKphkdicGrY9BpRQXwMVAEwAUHozyiTZBpLQDoA1loGrL5b4JkGd0MGRwmSzE5WmBzWceuI0Db+Z3a7ae+kkBZGsMIwA/g0UCIDv/qACQMcGzGzojaRnrQsyX5Jh7Jhv2sdvPX22cCVzciwZ3760ao2Vyew2WVQAEBtSjg1Y60M0swA9q3IXWnjeGNuh/jmsfnZXFLRcEy8h2mqiVqdMbJO54u7XIBhGHslxDaBXle8jkpJnE4+bC6YGYvUzjCqg+rx1LL9FUHuHEASQIgFskkgBIic+muhF3ZS0zkGzuknGByOz3CMLaW65SE99Z8fI7mz7Nh6+egpyMoIsfoB12CSx86oBsgfoPySHGwgylDWsmqgliec+8/ecClBEE20u2p440yLJP8pnn9FtdK9rz+5nHoku+cuA+5Bk5zdLL59npTVPQFGUqkM+yPAWmBZbfNWWNeRioyA+N2S6O+kSQpl5mMZE93G39BmniAgmvbYqdSpr52t7jTza1OAZRSe9pmykLHmhIthy1vCuKe1JG+pdaKCS9Z7QeYxVCQKkv0McJbN3kofjAwRrhuGS27biyaDbrHpJTJd6eymzI0uCCtIt4VZfBGccdIkS0lf0GX1gsDUdRQxIqWBWAxxZm8qtv8pcFXwAS+QiYeSq7UEw9bPvNdg63feD3jnGfTVX2XeIew9D8iRf0kvMTVW2pyN7VzefN7qL1MXlkwJyBDSXt3ofPMpp7sPM2ktiVWAtjv7+mFcVltmUmXnN2Bep59bVYvdlYst1ru95ovwPT7OvktYH7xMcT4p95lFqeSTdvy/8HJld7NL43/jpIdOzLve1wRbW8sG9484dIuMfW4fSp5d4p8Z46G7Cp4ed1wJ5G3ZJ300u7xunVx4ySyuX97MZ01tlH6Dpp3agxKtOiuTz27wPU7Wj94ySbD9XlSZ73W9DDTpXtvVvQc0mFo3AbQaf8TDRbFWuMQZsA/UAAcOyPRihcVq37E0MZo2Zpi975PTVZQ2r/3O2ZL2q7Ry9RjL93vGWHsFab2bSm3yJvh7COTYv5Eg/s9dzWFODJcce3ANmd8knft2PXH+ou0d8VqcCHL9d1t8WafOYWEwNIdZXD+HoYHnUlZ6fZL4AvHs/+4obPeyHg+0/9ie0fhHYC4UAAAAASUVORK5CYII=",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": false,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
