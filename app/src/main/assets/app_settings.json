@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "c0edc638-2b86-4541-9c24-a6965d03790e",
+  "appName": "حلقة القرآن",
+  "appIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABB9JREFUeJzt3cFtG0kQhtH2YvPw2fk4Cl+cgI8bw6a26exhAEGQZIszf5Nd1XzvKOgwQ36qLg0B6cvXn98HXPXX6gugNwERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQkb9XX0AV//3z74df//brx4OvpJfnDeh3xRx0c6PnCujP0Rykc8pTBKSb+9k8IOnc254B3dLNQT2h3QKSzoNtFdCN9Uhnok0CMnhWaR/Q7ekM9dxB74AMnuUafxamngpaTiDHVh39JpB6SmkWkHqq6RSQegpqE5B6auoRkHrKahCQeiqrHpB6iisdkHrqqxvQqXpYpWhAZ+sxflYpGtAp6lmoYkBWn0bKBWT16aVWQFafdmoFRDuFAjJ+OioU0CnqKaJKQHbnpkoEtP3htfGPR4mA6Gt9QBv/dB6OG9z1NtcHdFa782tv/QKilMUBWZ+7M4EeZ8uYVga05Qv62vY3OHpNoHbn1zPoFBAFLQto+/H+4Q3ud9ct/zrHckkHm/3h2DZHWKnX9K4XU+pOP2UCXXS8zXOPpF7pHNZMoG1WgYlvecd6RqMjrKwpb3zTeoaApgjf/r71jC47UP2X+NpKVP++PmUCzXQqiA3qGUsC2maD/tCNWexRzzCBCAloshvn6zZjWEBEBEREQDOd+t/he5xiPZ4D9fWSzj0+O6vABJrmfRzvB8+br2zQk4Du4tuvH7970rPNE6CDgOb7NJGdGhLQHMdh9IfB88bLd3Y/xQQ0zYW5ssEoEtAcl1Po3pCAiPQIqPuisLEeAVHWgoC6n/q8ZgIRERCRNgHZo2tqExA1rQnIHr0NE4hIp4CsQQV1CoiClgVkDdpDswnkFKumWUBUszKga6eYIVSKCURkcUBW6e5aTiCnWB0tA6KO9QFZpVtbH9BlGqqgREBW6b5KBDQcZG1VCYimCgVkCHVUKKDLNLRQrYAub9MaWqVWQMNvZN2UC2hYhlqpGNBlGnq8ogFZhrooGtDQUBN1Axoa6qB0QEND5VUPaGiotgYBDQ0V1iOgoaGq2gQ0NFTSl68/v6++hnOSGnxOMl2nCXRIIjCKpus3gV5crsEcmqhxQMNxVkDvgEZ8Ksko1D6gg1G0yiYBHWT0eFsFNGb8nqWkU3YL6CCjh9kzoBdKurfNAzrMen4opveeIqAXc59E62k8W0CviWmK5w3ojbM9PW0xbwiISL9P4ylFQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBETkf37DLXU5B7jbAAAAAElFTkSuQmCC",
+  "package": "com.halaqa.quran",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#5B5BD6",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAIAAADdvvtQAAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABB9JREFUeJzt3cFtG0kQhtH2YvPw2fk4Cl+cgI8bw6a26exhAEGQZIszf5Nd1XzvKOgwQ36qLg0B6cvXn98HXPXX6gugNwERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQkb9XX0AV//3z74df//brx4OvpJfnDeh3xRx0c6PnCujP0Rykc8pTBKSb+9k8IOnc254B3dLNQT2h3QKSzoNtFdCN9Uhnok0CMnhWaR/Q7ekM9dxB74AMnuUafxamngpaTiDHVh39JpB6SmkWkHqq6RSQegpqE5B6auoRkHrKahCQeiqrHpB6iisdkHrqqxvQqXpYpWhAZ+sxflYpGtAp6lmoYkBWn0bKBWT16aVWQFafdmoFRDuFAjJ+OioU0CnqKaJKQHbnpkoEtP3htfGPR4mA6Gt9QBv/dB6OG9z1NtcHdFa782tv/QKilMUBWZ+7M4EeZ8uYVga05Qv62vY3OHpNoHbn1zPoFBAFLQto+/H+4Q3ud9ct/zrHckkHm/3h2DZHWKnX9K4XU+pOP2UCXXS8zXOPpF7pHNZMoG1WgYlvecd6RqMjrKwpb3zTeoaApgjf/r71jC47UP2X+NpKVP++PmUCzXQqiA3qGUsC2maD/tCNWexRzzCBCAloshvn6zZjWEBEBEREQDOd+t/he5xiPZ4D9fWSzj0+O6vABJrmfRzvB8+br2zQk4Du4tuvH7970rPNE6CDgOb7NJGdGhLQHMdh9IfB88bLd3Y/xQQ0zYW5ssEoEtAcl1Po3pCAiPQIqPuisLEeAVHWgoC6n/q8ZgIRERCRNgHZo2tqExA1rQnIHr0NE4hIp4CsQQV1CoiClgVkDdpDswnkFKumWUBUszKga6eYIVSKCURkcUBW6e5aTiCnWB0tA6KO9QFZpVtbH9BlGqqgREBW6b5KBDQcZG1VCYimCgVkCHVUKKDLNLRQrYAub9MaWqVWQMNvZN2UC2hYhlqpGNBlGnq8ogFZhrooGtDQUBN1Axoa6qB0QEND5VUPaGiotgYBDQ0V1iOgoaGq2gQ0NFTSl68/v6++hnOSGnxOMl2nCXRIIjCKpus3gV5crsEcmqhxQMNxVkDvgEZ8Ksko1D6gg1G0yiYBHWT0eFsFNGb8nqWkU3YL6CCjh9kzoBdKurfNAzrMen4opveeIqAXc59E62k8W0CviWmK5w3ojbM9PW0xbwiISL9P4ylFQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBEREQEQERERARAREREBEBETkf37DLXU5B7jbAAAAAElFTkSuQmCC",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": false,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
