@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "e79ea78d-689d-42cd-9a8a-fe408ceb96f2",
+  "appName": "Eco-pilote",
+  "appIcon": "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",
+  "package": "com.ecopilote.app",
+  "versionName": "1.7",
+  "versionCode": 12,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#9CA3AF",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 74,
+    "loader": 1,
+    "iconSize": 173,
+    "iconCorner": 34,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1794211498692
 }
