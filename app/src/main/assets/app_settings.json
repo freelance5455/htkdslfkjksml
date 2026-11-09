@@ -1,52 +1,60 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "c111ba48-bb43-4afc-9267-08ae7d4c0009",
+  "appName": "Asd",
+  "appIcon": "iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAAA3NCSVQICAjb4U/gAAAAAXNSR0IArs4c6QAAB3tJREFUWIWtWGuPHEcVPedWP2Zm144DTowfsfdhvOvYCUKAAgJkyVEIeTkkXxD/khCsoIQvfIoiFISEbIeQh7Gzjr1e78P7mJnuqnv40D2zu9o1WIuvWpqemZ4699w691TVEMgBgQAjmhCCkAMOZMz6gkgUHRT5yfMXXv3VFcHE5lEHnQKR/vynD25dv4Y4RDWkvDTI3YAKcIwHbsIABCAAAH37c8AAAb1ut19HB9npIcWpiy9efuVVYwYQHA9FQoRmpqZWH66t3lkIRemxlnyiU1Qxaee4bbABtnYIqn0FBGTGfl07Amgg5378k0svXw55AdkY2CkChAhmIZs5c7pfV4vfLACQUMdoRmkbmA0mBKgBboqh0RcAkISQFRKQFzMXX7h0+XKnN9Ef1sG2GYsSQQpgqquJbu/EiRNr6+srD5bgshCSpz102wjNVBEiYGjpCkDIJKEsT83Nvf7WldotRc/LUiLYPCK1+ZNUnhfDqiI0Nze/uPRgbXVVKSFkUOJuyIZeaCo8RiWg5paE8dT5C6++eWVQ66kjTw+GFS2I2+OMJAaKgGJKhw8f2tzcmJufX1pZXlu6DwkC984yEJqihRG2YIKBhpCdfuEHb7zz7iClvOhu9gdZloeQu7QDuK2RCDMC2OoPi7KTUrr44ot3V1fXlh5APuIp7gUeFdkEcxC05164eOnlV2rQihIMIRgZPCXsYsxWmIBHZ2CwQDMzG8Tq9JmplY31h4t3t1UFjtkHy9qcRsyDLJ86//xrb7/NoqssF0yQZHQjrRX/LuAmZwok6JBAWgh5ce7c95eXHqyursAFtvohEAKDhE6vTHUSLMs70f3EzOyv3ngDeSeZOekEYcTINfYBHmEDYqu1hiWBqdPP3Vu8v76ywk6JlAD0et1hVYe8LKph1elOxOTJcWZ+/tdvvjV55LsDSaTYcDGCBm9QtQ8wtqXZ6Lx5S0x0utNT0/eWVx7evw8olJ1qsBXyLLgDYkwO8siJk69f+c3h7zzzcDCABaeBbAYwOfbEbmCM57uh3nw3GFZHnn7q2ePHbn6zMNxYV4owU4qhVXSe5YcOv/Pb35WTh+rGtRkIA7gX1WkiRZoaA9h5NUyNY0ERCSRsdnb6+mf/VFVDwsgyCfC1d949dPRo6PSG7pYXjfhNMIEU6KBAObf9bd8GHZW9vQkhT+4hCxl57NixL679AwbIAxCYZdPn5y/88Eeh25NZBEATaLIRCTUmPpL/LmDuvTTKjkiQSINCCL1uuby6ura2Ao/GrFDyn/380sTkoTp5lTzLspSSCSMPb+u8zyQ/RsQYQ5bV0WvX5KGnfvqLX6KukeUBLJ5/6aWz8xdqp2hmwRSsaQ0KbJZqaAcNUzujj0RrfyhAWTCXk25kSirLYrOODxbuGCYnnps5iywPeWHMKUspAU1d22vHAm72aLh9Q0hKNUmYMc+R5VOzs5iYtLw3eerUqRijEzAK5g4zO1Bd9yNPSiICAEm16+TpM1m3Z0ePPlt2J6IrRfeRjZPjDcITACYJwBNijHJ0uhNPH30mOzM9m4SQF7BAMIkORXmzdvCAktoOj6kxWZJAyAqLwvTMWTt+8sSgqhkyF73ZhoUg6UkxBmBmGi2mgg2G1fdOnrJOb4JkjBGAu4vGsP1cGzw4b5JjxTgtxghYb2LSiqLoTvQgk3HM0rVHuwfF1ihIhhCi0O12y7Jr7u7uQKtkd5f0BFW9E36MEmPMBoOBmdECkgMgjdzPG2TYuxQ9RrANSJJ7gPr9/nDYt62NdUl5njfpBAKupga7UA8akty9RfeU5zngW5sb9u3CnU6RK0UoUYmku5vZQb15f+zGRgBAqSzye3cW7NbNrzJjrIZKUZLBDZ5bIPD/NzEABnOo8RAo1cMqN3791Re2vLw07G8GImRmo/2UlJ4U43Fn0hRCoKG/tbGydN+8v3n79u0QQkYzEEqAN+vEkwImKaRmlnPjwq1/a9A39Ps3v/wXYu2xltK4l3QgDe8DzGDMJMEdsUKsb335Jba2DKg///una0uLiCkD4YIzywoiiBDl8MY9mm3Qo4LjvtnRtU6AeRTgyglL1drS3c/+9glUGzxC6a+ffBzkJpng7oPBQA19jXTxv5yrcZ4Gb5wBYCmlNhuPTOnTjz82C5Ab5Kjj19ev3b17p64GhGeBZZkLydol5bGrusdo6SnPLEBGeB3v31v86sY1r6rmYAjLA+B/eO/3nmrFiBSz0Gyp+fjAZrav0WaQYo26RopX338PJLP2rwgAgqgqfrt4f3p2ptPtbWxtZnlmbNurYUIEtuef/YF3cSVJGhWrarJTDDc3rr7/3sNvFyDPzKQUyjKPdbIil3FzeXlpff3cubksL5p/EGhsgWWtjT96jzc2WjMbVUulAWn44QdX73x+g5mFzFI1LMsyePIssxQjHADXl1eXH64fO34cITSnCAcpA2Awgvovm8sdXJs8FGN/beUvH31088Z1wKGkugq0GGMgIMhoas9aXL137/bi4tn58yLMDKTBJGHPaXFfyDFqSinF6sOrf1z4/Abk8AR3MwY4gf8AAYAznp9cnKMAAAAASUVORK5CYII=",
+  "package": "com.asd.app",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "",
+  "localContent": true,
+  "localEntry": "Pulse-Drive-Bugatti-3.html",
+  "themeColor": "#FF7A2F",
+  "pullRefresh": false,
+  "fullScreen": false,
+  "pro": false,
+  "watermark": false,
+  "playStore": false,
+  "appStore": false,
+  "splash": {
+    "color": "#0F1318",
+    "gradient": false,
+    "image": "",
+    "size": 48,
+    "loader": 1,
+    "iconSize": 120,
+    "iconCorner": 16,
+    "gap": 28
+  },
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#FF7A2F",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 0,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#FF7A2F",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "touchedAt": 1794218680338
 }
