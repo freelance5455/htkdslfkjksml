@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "de43e86a-9b61-4992-887b-695f6a9cc32d",
+  "appName": "calculatorpro",
+  "appIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAASPSURBVHic7d3BbV1FFMfhMWIbEcWbiEUKQO4gqYBqUCSqYEM1dOAOLEpA2ThKlALM6kkGAn625zJzzv/71sncm5nze9eW854v3rx7fzcg1DerbwBWEgDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBE+3b1DRzh4vZ69S20dHf5dvUtTNcmAEN/vL/vcYcgygdg8Nc57X3lEEp/D2D491D5HEo+ASpveFdVnwblngCGf2/VzqdUANU2N1WlcyoTQKVNpc55lQkAjlAigCqvJvxVhXPbPoAKm8i/2/38tg8AjrT1zwGe++rx6eOXSXeS7eWrF8/6+xe319v+fKDtE8Dwz/Pp45e2+9kugM6HtVrHfd02gN2/eUr11Ah2Pc9tA3iKjq9QO+q0z20C6HQoFXTZ7zYBwFMIgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCI1iaA5356GY/TZb/bBABP0SqALq9Ku+u0z60CGKPX4eyo2/62C2CMfoe0i4772jKAMXoe1iovX71ou59b/36A5+p6aMzT9gkA5xAA0QRANAEQTQBEEwDRBEA0ARBNAERr/ZPgk6urq2lr3dzcbH/d338+/88+5Idf5v0bdtT+CTBzCB+z3qrrzhz+I9bbTesAZg/hueuuuu5Rw9o5grYBHDWED62/6rpHD2nXCNoGAOcQANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQLS2ATzmLYQz11913aPfutj1rZFtAxjjuGF8aN1V1z1qSLsO/xjNAxhj/jCeu96q684e1s7DP8YYF2/evb9bfRNfc3F7vfoWmOzu8u3qW/iH9k8A+C8CIJoAiCYAokV8NOLr199PW+vDhz+2v+7nX3+cdt3vfvpt2lo7av8EmDmEj1lv1XVnDv8R6+2mdQCzh/DcdVdd96hh7RxB2wCOGsKH1l913aOHtGsEbQOAcwiAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgWtsAHvMWwpnrr7ru0W9d7PrWyG0DmPEhSkcN40PrrrruUUM6Y90dPxRrjI0DmGX2MJ673qrrzo6g6yv/ScSnQhz9Zclu1+0+tDO1fwKw3q5f/oyxeQA7bxw9bB0AHG37ADwFatv9/LYPYIz9N5Gvq3BuJQKgngrDP0ahAKpsKLWUCWAMEVRR6ZxKBTBGrc1Nc3f5ttz5lAtgjJob3V3V8ygZwEnVTe+m8jmU/79Ap833a1X/X5WH/r7yAZzcPxAxHKPL0N/XJoD7Oh4Uxyj9PQA8lwCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaH8CJFICjR/QQkoAAAAASUVORK5CYII=",
+  "package": "com.app.calculatorpro",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "CalculatorPro-Android/app/src/main/assets/www/index.html",
+  "themeColor": "#5B5FD6",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAASPSURBVHic7d3BbV1FFMfhMWIbEcWbiEUKQO4gqYBqUCSqYEM1dOAOLEpA2ThKlALM6kkGAn625zJzzv/71sncm5nze9eW854v3rx7fzcg1DerbwBWEgDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBE+3b1DRzh4vZ69S20dHf5dvUtTNcmAEN/vL/vcYcgygdg8Nc57X3lEEp/D2D491D5HEo+ASpveFdVnwblngCGf2/VzqdUANU2N1WlcyoTQKVNpc55lQkAjlAigCqvJvxVhXPbPoAKm8i/2/38tg8AjrT1zwGe++rx6eOXSXeS7eWrF8/6+xe319v+fKDtE8Dwz/Pp45e2+9kugM6HtVrHfd02gN2/eUr11Ah2Pc9tA3iKjq9QO+q0z20C6HQoFXTZ7zYBwFMIgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCI1iaA5356GY/TZb/bBABP0SqALq9Ku+u0z60CGKPX4eyo2/62C2CMfoe0i4772jKAMXoe1iovX71ou59b/36A5+p6aMzT9gkA5xAA0QRANAEQTQBEEwDRBEA0ARBNAERr/ZPgk6urq2lr3dzcbH/d338+/88+5Idf5v0bdtT+CTBzCB+z3qrrzhz+I9bbTesAZg/hueuuuu5Rw9o5grYBHDWED62/6rpHD2nXCNoGAOcQANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQLS2ATzmLYQz11913aPfutj1rZFtAxjjuGF8aN1V1z1qSLsO/xjNAxhj/jCeu96q684e1s7DP8YYF2/evb9bfRNfc3F7vfoWmOzu8u3qW/iH9k8A+C8CIJoAiCYAokV8NOLr199PW+vDhz+2v+7nX3+cdt3vfvpt2lo7av8EmDmEj1lv1XVnDv8R6+2mdQCzh/DcdVdd96hh7RxB2wCOGsKH1l913aOHtGsEbQOAcwiAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgWtsAHvMWwpnrr7ru0W9d7PrWyG0DmPEhSkcN40PrrrruUUM6Y90dPxRrjI0DmGX2MJ673qrrzo6g6yv/ScSnQhz9Zclu1+0+tDO1fwKw3q5f/oyxeQA7bxw9bB0AHG37ADwFatv9/LYPYIz9N5Gvq3BuJQKgngrDP0ahAKpsKLWUCWAMEVRR6ZxKBTBGrc1Nc3f5ttz5lAtgjJob3V3V8ygZwEnVTe+m8jmU/79Ap833a1X/X5WH/r7yAZzcPxAxHKPL0N/XJoD7Oh4Uxyj9PQA8lwCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaAIgmgCIJgCiCYBoAiCaAIgmAKIJgGgCIJoAiCYAogmAaH8CJFICjR/QQkoAAAAASUVORK5CYII=",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": false,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
