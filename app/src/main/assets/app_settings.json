@@ -1,52 +1,65 @@
 {
-    "appName": "Web2App",
-    "package": "com.web2app",
-    "websiteUrl": "https://appofweb.com",
-    "localContent": false,
-    "localEntry": "index.html",
-    "themeColor": "#ffffff",
-    "splash": {
-        "color": "#ffffff",
-        "image": "",
-        "size": 30,
-        "loader": 0
-    },
-    "showTabbar": true,
-    "tabbarStyle": 0,
-    "tabbars": [
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Home",
-            "url": "https://appofweb.com"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Explore",
-            "url": "https://appofweb.com/#features"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Alerts",
-            "url": "https://appofweb.com/notifications"
-        },
-        {
-            "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAARRJREFUWEftl0EOAiEMRTs305OpJ9Ojac2QYEV+SwuZxLJhgYxv3q8FNzr42A7ORwnoTejvDF53Y2X2CgytQYa67ES31xwCGRXxnYhOQlcIZARgC66wPojo7MnZA8jGOFJpTvIwJNvk2TxGARmKzVkGmzRDjgCOwJUXMdelFbD+pVrs1Z81QVoAI+DMJrWAkXAmSA3gDDg1JALs9bjRGpT7ujXZA1wBBxt6C1DbgKMM1pBfDV0CenpcFPBHQ0c1yF86M2p4VicgyH2JwXJbabGg284ywF93PlS/Ccix9iykQU0fTIPoiPLUkWfvmyviJMmIUcTof29pNa3nePaqI0YvMHVdU4NTAdDDExAZQutpEBlC60+/dk8piBaB1QAAAABJRU5ErkJggg==",
-            "title": "Profile",
-            "url": "https://appofweb.com/profile"
-        }
-    ],
-    "tabSettings": {
-        "showTitles": true,
-        "tabActiveColor": "#1976D2",
-        "tabBarColor": "#ffffff",
-        "tabInactiveColor": "#888888"
-    },
-    "permissions": [],
-    "pushNotification": false,
-    "oneSignalAppId": "",
-    "playStore": false,
-    "appStore": false,
-    "watermark": true,
-    "pullRefresh": false,
-    "fullScreen": false
+  "id": "b68d4fd8-47a9-419a-9cab-85a27483bde0",
+  "appName": "3D Solar System Simulator demo",
+  "appIcon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABAZJREFUWIXtlk1oHVUUx3/n3nk2bT4aQrX1NYu+VUqoXVgqCpUiUuhGRCjiqhCwIEgtbgTXdq8g1JWK0p0KhboQF+Ki0tKiSFsQqoEkKi2UkAQbk7yZe46Le2fmvWc+WmmykJ7FezN35p7fOf/zn3lPOPgsPsN7nF/47uJQ/46bk1NPvTYBRigIBUGxgCoGIojgHFkDn3370fvHnjl06/c/xyZOkzVwfuHLj4d2bP/qh6snzn6ABkLe/uaLRua/vnT5pbfeocgpckKBakbexhTNcAUYAErRRgNB0YAGVNGACAji8A4DM8yAHdu2nXzxeZxHJPMO2L1z6OQLz8VdIgBYbCMnFISAaXb29Bu7H98FsnNwcKi/H8jbOe0VNKCWwKaoAojgPOZwBhYXR5/Y9dm7b9MRRw7sP3Jgf+cKqhQ5RUGInYTsMe9eP/FK5z2//DZJvoJqalQVU9SQCFbE4RVSx/cVZknkkPTLzn36+ZmJk07cr1NTi0tLl3/6+b0Pz9FuowGzxDbAEEBwivNJA1Pg1tTM2Muv4nxUu27RDC3aP15qZBmm1XQJATNh9yjOIQ7n6uqijLHR1K5h4BwSx5zhHD5LxvSRGq+CgUVwSNqGkKipn5ARCtQlu9Zg6p5iltSHpBJNcb4chyNkOEngnuorcOfgzDKKvN4gUlLjNgNFKd0OgHOo4Byi+KiKwxWIA8FVUlsyQXoolBBACQpgseO4J/me1K6ARvsoJumCOExBcB4XpxBwEbla9VayUwX1s5ARAqIgdIWVTYPE45hUQVJqE9TVVOidlxkipVfKp8Aszi6CpYtrHUNKyFJqkdJihgmiBMEJQZDI7knSoVxMmDqWrHwlkT7rGZeiJWfFCiQlSlscEh0n6b22imzxgJptBghZo6bWhqzYpKZLLlVfVbnpVdpD7ZCtzlmuCIL3da4umUhDsmqxtF9iSJdUVXQq15WnKiKiq/dGb7FVorUXqwp6qD3gzqexcksyxXrkMmNXLun53iD+tXWN2fRu63D1KrFhhlV+S9YxxUZxPxX/h7SP4n8T6xmkr69vZGRkeHh4YGCgr68vyxrOPbihHgjcbDabzb0DA/0LC/cWF5eWllZWVtpFEezh2bIXPDo6um9fa3l5ZXZ2YX7+r4eFWQ88ODg4NrZfxN25M3vv3t+bh+wCN5vN8fHxmZnbd+/ObTayBrdarWZz7/T07cXFpa2hAtJqtfbseXJy8o88L7aMCrhmc+/WUwFv1lhebm8xFfDeb996KrDWv4BH4EfgrQTfuHHt4MED1en585+cOfPmpoMPHz7UbufXr9/sWHn6woWLq9586tTElSvfPxzw8ePHrl69Vp0ePXpkbm5+enpm1ZuHh3dumPAfnHheRjCQmEAAAAAASUVORK5CYII=",
+  "package": "com.app.app3dsolarsystemsimulatordemo",
+  "versionName": "1.0",
+  "versionCode": 1,
+  "websiteUrl": "https://local.file/index.html",
+  "localContent": true,
+  "localEntry": "index.html",
+  "themeColor": "#5B5BD6",
+  "splash": {
+    "color": "#FFFFFF",
+    "gradient": false,
+    "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAIAAAADnC86AAAAAXNSR0IArs4c6QAAAANzQklUCAgI2+FP4AAABAZJREFUWIXtlk1oHVUUx3/n3nk2bT4aQrX1NYu+VUqoXVgqCpUiUuhGRCjiqhCwIEgtbgTXdq8g1JWK0p0KhboQF+Ki0tKiSFsQqoEkKi2UkAQbk7yZe46Le2fmvWc+WmmykJ7FezN35p7fOf/zn3lPOPgsPsN7nF/47uJQ/46bk1NPvTYBRigIBUGxgCoGIojgHFkDn3370fvHnjl06/c/xyZOkzVwfuHLj4d2bP/qh6snzn6ABkLe/uaLRua/vnT5pbfeocgpckKBakbexhTNcAUYAErRRgNB0YAGVNGACAji8A4DM8yAHdu2nXzxeZxHJPMO2L1z6OQLz8VdIgBYbCMnFISAaXb29Bu7H98FsnNwcKi/H8jbOe0VNKCWwKaoAojgPOZwBhYXR5/Y9dm7b9MRRw7sP3Jgf+cKqhQ5RUGInYTsMe9eP/FK5z2//DZJvoJqalQVU9SQCFbE4RVSx/cVZknkkPTLzn36+ZmJk07cr1NTi0tLl3/6+b0Pz9FuowGzxDbAEEBwivNJA1Pg1tTM2Muv4nxUu27RDC3aP15qZBmm1XQJATNh9yjOIQ7n6uqijLHR1K5h4BwSx5zhHD5LxvSRGq+CgUVwSNqGkKipn5ARCtQlu9Zg6p5iltSHpBJNcb4chyNkOEngnuorcOfgzDKKvN4gUlLjNgNFKd0OgHOo4Byi+KiKwxWIA8FVUlsyQXoolBBACQpgseO4J/me1K6ARvsoJumCOExBcB4XpxBwEbla9VayUwX1s5ARAqIgdIWVTYPE45hUQVJqE9TVVOidlxkipVfKp8Aszi6CpYtrHUNKyFJqkdJihgmiBMEJQZDI7knSoVxMmDqWrHwlkT7rGZeiJWfFCiQlSlscEh0n6b22imzxgJptBghZo6bWhqzYpKZLLlVfVbnpVdpD7ZCtzlmuCIL3da4umUhDsmqxtF9iSJdUVXQq15WnKiKiq/dGb7FVorUXqwp6qD3gzqexcksyxXrkMmNXLun53iD+tXWN2fRu63D1KrFhhlV+S9YxxUZxPxX/h7SP4n8T6xmkr69vZGRkeHh4YGCgr68vyxrOPbihHgjcbDabzb0DA/0LC/cWF5eWllZWVtpFEezh2bIXPDo6um9fa3l5ZXZ2YX7+r4eFWQ88ODg4NrZfxN25M3vv3t+bh+wCN5vN8fHxmZnbd+/ObTayBrdarWZz7/T07cXFpa2hAtJqtfbseXJy8o88L7aMCrhmc+/WUwFv1lhebm8xFfDeb996KrDWv4BH4EfgrQTfuHHt4MED1en585+cOfPmpoMPHz7UbufXr9/sWHn6woWLq9586tTElSvfPxzw8ePHrl69Vp0ePXpkbm5+enpm1ZuHh3dumPAfnHheRjCQmEAAAAAASUVORK5CYII=",
+    "size": 48,
+    "loader": 0,
+    "iconSize": 120,
+    "iconCorner": 15,
+    "gap": 28
+  },
+  "showTabbar": false,
+  "tabbarStyle": 0,
+  "tabbars": [],
+  "tabSettings": {
+    "tabActiveColor": "#5B5BD6",
+    "tabInactiveColor": "#9CA3AF",
+    "tabBarColor": "#FFFFFF",
+    "showTitles": true
+  },
+  "permissions": [],
+  "pushNotification": false,
+  "oneSignalAppId": "",
+  "playStore": false,
+  "appStore": false,
+  "pro": false,
+  "showOnboarding": false,
+  "onboarding": [],
+  "onboardingStyle": 1,
+  "onboardingGradient": false,
+  "onboardingTextColor": "#111827",
+  "onboardingGradientColor": "#5B5BD6",
+  "onboardingCardColor": "#FFFFFF",
+  "onboardingImageShape": 0,
+  "pageLoader": {
+    "enabled": false,
+    "style": 0,
+    "card": true,
+    "cardColor": "#FFFFFF",
+    "cardOpacity": 100,
+    "cardRadius": 12,
+    "gap": 12,
+    "loaderWidth": 78,
+    "loaderThickness": 7
+  },
+  "pullRefresh": false,
+  "fullScreen": false,
+  "ads": {
+    "admobAppId": "",
+    "banner": "",
+    "rewarded": "",
+    "bannerSize": "adaptive"
+  },
+  "watermark": false
 }
