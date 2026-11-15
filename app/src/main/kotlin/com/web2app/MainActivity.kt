@@ -246,13 +246,28 @@ class MainActivity : AppCompatActivity() {
             override fun shouldOverrideUrlLoading(
                 view: WebView, request: WebResourceRequest
             ): Boolean {
+                val target = request.url.toString()
+
+                // tel:, mailto:, whatsapp:, intent:, Google Maps, wa.me … belong to another
+                // app; the WebView would show ERR_UNKNOWN_URL_SCHEME or a marketing page.
+                val homeHost = if (appConfig.localContent) null else Uri.parse(appConfig.websiteURL).host
+                if (ExternalLinks.isExternal(request.url, homeHost)) {
+                    ExternalLinks.open(this@MainActivity, target) { view.loadUrl(it) }
+                    return true
+                }
+
                 // A bundled page may link to the placeholder address the builder wrote
                 // (or to a plain path); both mean "stay inside the bundle". Resolving
                 // here keeps in-page navigation working, not just the initial load.
-                val target = request.url.toString()
-                view.loadUrl(
-                    if (appConfig.localContent) LocalContent.urlFor(target) else target
-                )
+                // Only take over when the address actually changes — returning false
+                // AFTER calling loadUrl used to load every link twice.
+                if (appConfig.localContent) {
+                    val resolved = LocalContent.urlFor(target)
+                    if (resolved != target) {
+                        view.loadUrl(resolved)
+                        return true
+                    }
+                }
                 return false
             }
 
@@ -291,18 +306,20 @@ class MainActivity : AppCompatActivity() {
                         setSupportMultipleWindows(true)
                         javaScriptCanOpenWindowsAutomatically = true
                     }
-                    webViewClient = object : WebViewClient() {}
                     webChromeClient = permissionsHandler.webChromeClient()
                 }
 
-                android.app.Dialog(ctx).apply {
+                val popupDialog = android.app.Dialog(ctx).apply {
                     setContentView(popupWebView)
                     window?.setLayout(
                         ViewGroup.LayoutParams.MATCH_PARENT,
                         ViewGroup.LayoutParams.MATCH_PARENT
                     )
-                    show()
                 }
+                // Non-web links in the popup (Google Maps' intent:// redirect, tel:,
+                // whatsapp:, …) go to their app instead of an ERR_UNKNOWN_URL_SCHEME page.
+                popupWebView.webViewClient = ExternalLinks.popupClient(this@MainActivity, popupDialog)
+                popupDialog.show()
 
                 val transport = resultMsg?.obj as? WebView.WebViewTransport ?: return false
                 transport.webView = popupWebView
