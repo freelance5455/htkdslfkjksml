@@ -49,53 +49,6 @@
             android:layout_gravity="center"
             android:visibility="gone" />
 
-        <!-- ─── Floating "Made with" watermark badge ──────────────────────────── -->
-        <LinearLayout
-            android:id="@+id/watermarkBadge"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="bottom|end"
-            android:layout_marginBottom="18dp"
-            android:layout_marginEnd="14dp"
-            android:background="@drawable/bg_watermark"
-            android:clickable="true"
-            android:focusable="true"
-            android:foreground="?attr/selectableItemBackgroundBorderless"
-            android:elevation="8dp"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingStart="14dp"
-            android:paddingEnd="10dp"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp">
-
-            <TextView
-                android:id="@+id/watermarkText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:letterSpacing="0.01"
-                android:text="Made with"
-                android:textColor="#FFFFFFFF"
-                android:textSize="13sp"
-                android:textStyle="normal" />
-
-            <!-- Small gap between text and icon -->
-            <Space
-                android:layout_width="6dp"
-                android:layout_height="1dp" />
-
-            <!-- App icon on the right side -->
-            <ImageView
-                android:id="@+id/watermarkIcon"
-                android:layout_width="26dp"
-                android:layout_height="26dp"
-                android:contentDescription="App icon"
-                android:scaleType="centerCrop"
-                android:src="@drawable/ic_watermark_logo" />
-
-        </LinearLayout>
-        <!-- ──────────────────────────────────────────────────────────────────── -->
 
         <!-- Preview close button (preview mode only): a faint eye watermark sits behind
              a clear close (X) so it reads as "preview", right edge, vertically centered. -->

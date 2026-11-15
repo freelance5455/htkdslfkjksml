@@ -1,21 +1,13 @@
 package com.web2app
 
-import android.animation.AnimatorSet
-import android.animation.ObjectAnimator
-import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Color
-import android.graphics.Outline
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.view.View
 import android.view.ViewGroup
-import android.view.ViewOutlineProvider
-import android.view.animation.DecelerateInterpolator
 import android.widget.FrameLayout
-import android.widget.ImageView
-import android.widget.LinearLayout
 import android.webkit.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
@@ -32,9 +24,6 @@ class MainActivity : AppCompatActivity() {
     /** Holder for the configured page loader; null/false means use the default spinner. */
     private var pageLoaderHolder: View? = null
     private var useCustomPageLoader = false
-
-    /** Floating "Made with [icon]" watermark badge. */
-    private var watermarkBadge: LinearLayout? = null
 
     private lateinit var permissionsHandler: PermissionsHandler
 
@@ -83,7 +72,6 @@ class MainActivity : AppCompatActivity() {
         setupPageLoader()
         setupWebView()
         requestConfiguredPermissions()
-        setupWatermark()
 
         swipeRefresh.isEnabled = appConfig.pullRefresh
         swipeRefresh.setOnRefreshListener { webView.reload() }
@@ -99,58 +87,6 @@ class MainActivity : AppCompatActivity() {
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         super.onWindowFocusChanged(hasFocus)
         if (hasFocus && appConfig.fullScreen) enterFullScreen()
-    }
-
-    // ─── Watermark ────────────────────────────────────────────────────────────
-
-    /**
-     * Clips the app icon inside the watermark badge into a perfect circle and
-     * plays a subtle slide-up + fade-in entrance animation after a short delay.
-     */
-    private fun setupWatermark() {
-        val badge = findViewById<LinearLayout>(R.id.watermarkBadge)
-
-        // "watermark": false in app_settings.json strips the badge from the view tree.
-        if (!appConfig.watermark) {
-            (badge?.parent as? ViewGroup)?.removeView(badge)
-            watermarkBadge = null
-            return
-        }
-        watermarkBadge = badge
-
-        // Clip the icon ImageView into a circle using ViewOutlineProvider
-        val iconView = findViewById<ImageView>(R.id.watermarkIcon)
-        iconView?.apply {
-            outlineProvider = object : ViewOutlineProvider() {
-                override fun getOutline(view: View, outline: Outline) {
-                    val radius = (5 * resources.displayMetrics.density) // 5dp in pixels
-                    outline.setRoundRect(0, 0, view.width, view.height, radius)
-                }
-            }
-            clipToOutline = true
-        }
-
-        // Slide-up + fade-in entrance animation
-        watermarkBadge?.apply {
-            alpha = 0f
-            translationY = 60f
-            postDelayed({
-                val fadeIn = ObjectAnimator.ofFloat(this, "alpha", 0f, 1f)
-                val slideUp = ObjectAnimator.ofFloat(this, "translationY", 60f, 0f)
-                AnimatorSet().apply {
-                    playTogether(fadeIn, slideUp)
-                    duration = 450
-                    interpolator = DecelerateInterpolator(1.8f)
-                    start()
-                }
-            }, 600)
-
-            // Open Play Store listing on tap
-            setOnClickListener {
-                val uri = Uri.parse("https://play.google.com/store/apps/details?id=com.webtoapp.convertwebsitetoapp")
-                startActivity(Intent(Intent.ACTION_VIEW, uri))
-            }
-        }
     }
 
     // ─── Page loader ─────────────────────────────────────────────────────────
